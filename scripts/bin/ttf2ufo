@@ -1,0 +1,17 @@
+#! /usr/bin/env python
+
+import extractor
+import defcon
+import sys
+
+def main(fromfile, todir):
+    ufo = defcon.Font()
+    extractor.extractUFO(fromfile, ufo)
+    ufo.save(todir)
+
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        print('Usage: ttf2ufo fromfilename.ttf toufodirname.ufo.')
+        sys.exit()
+    main(*sys.argv[1:3])
+
