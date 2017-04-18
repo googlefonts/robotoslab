@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Egrave.smcp" format="2">
+  <advance width="1137"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="31"/>
+    <component base="E.smcp"/>
+    <component base="grave" xOffset="179" yOffset="26"/>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="K.smcp" format="2">
+  <advance width="1280"/>
+  <outline>
+    <contour>
+      <point x="44" y="989" type="line"/>
+      <point x="44" y="1165" type="line"/>
+      <point x="607" y="1165" type="line"/>
+      <point x="607" y="989" type="line"/>
+      <point x="491" y="959" type="line"/>
+      <point x="491" y="694" type="line"/>
+      <point x="579" y="694" type="line"/>
+      <point x="751" y="978" type="line"/>
+      <point x="684" y="989" type="line"/>
+      <point x="684" y="1165" type="line"/>
+      <point x="1213" y="1165" type="line"/>
+      <point x="1213" y="989" type="line"/>
+      <point x="1096" y="963" type="line"/>
+      <point x="850" y="627" type="line"/>
+      <point x="1129" y="198" type="line"/>
+      <point x="1235" y="175" type="line"/>
+      <point x="1235" y="0" type="line"/>
+      <point x="703" y="0" type="line"/>
+      <point x="703" y="175" type="line"/>
+      <point x="763" y="185" type="line"/>
+      <point x="597" y="459" type="line"/>
+      <point x="491" y="459" type="line"/>
+      <point x="491" y="205" type="line"/>
+      <point x="607" y="175" type="line"/>
+      <point x="607" y="0" type="line"/>
+      <point x="44" y="0" type="line"/>
+      <point x="44" y="175" type="line"/>
+      <point x="200" y="205" type="line"/>
+      <point x="200" y="959" type="line"/>
+    </contour>
+  </outline>
+</glyph>

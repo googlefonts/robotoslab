@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ibreve.smcp" format="2">
+  <advance width="585"/>
+  <outline>
+    <component base=".ttfautohint"/>
+    <component base="I.smcp"/>
+    <component base="breve" xOffset="-137" yOffset="89"/>
+  </outline>
+</glyph>

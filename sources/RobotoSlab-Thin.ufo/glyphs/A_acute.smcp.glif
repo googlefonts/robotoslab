@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aacute.smcp" format="2">
+  <advance width="1325"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="59"/>
+    <component base="A.smcp"/>
+    <component base="acute" xOffset="477" yOffset="12"/>
+  </outline>
+</glyph>

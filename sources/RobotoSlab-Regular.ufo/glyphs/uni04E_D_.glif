@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04ED" format="2">
+  <advance width="1089"/>
+  <unicode hex="04ED"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="91"/>
+    <component base="uni044D"/>
+    <component base="dieresis" xOffset="19" yOffset="24"/>
+  </outline>
+</glyph>

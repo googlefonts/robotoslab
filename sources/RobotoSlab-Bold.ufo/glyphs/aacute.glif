@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aacute" format="2">
+  <advance width="1125"/>
+  <unicode hex="00E1"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="74"/>
+    <component base="a"/>
+    <component base="acute" xOffset="316" yOffset="24"/>
+  </outline>
+</glyph>

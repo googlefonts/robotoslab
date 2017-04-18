@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="O.smcp" format="2">
+  <advance width="1231"/>
+  <outline>
+    <contour>
+      <point x="1151" y="496" type="line" smooth="yes"/>
+      <point x="1151" y="267"/>
+      <point x="859" y="-19"/>
+      <point x="626" y="-19" type="qcurve" smooth="yes"/>
+      <point x="393" y="-19"/>
+      <point x="100" y="268"/>
+      <point x="100" y="496" type="qcurve" smooth="yes"/>
+      <point x="100" y="668" type="line" smooth="yes"/>
+      <point x="100" y="895"/>
+      <point x="392" y="1181"/>
+      <point x="625" y="1181" type="qcurve" smooth="yes"/>
+      <point x="857" y="1181"/>
+      <point x="1151" y="895"/>
+      <point x="1151" y="668" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="859" y="669" type="line" smooth="yes"/>
+      <point x="859" y="796"/>
+      <point x="733" y="958"/>
+      <point x="625" y="958" type="qcurve" smooth="yes"/>
+      <point x="514" y="958"/>
+      <point x="391" y="797"/>
+      <point x="391" y="669" type="qcurve" smooth="yes"/>
+      <point x="391" y="496" type="line" smooth="yes"/>
+      <point x="391" y="368"/>
+      <point x="515" y="204"/>
+      <point x="626" y="204" type="qcurve" smooth="yes"/>
+      <point x="734" y="204"/>
+      <point x="859" y="368"/>
+      <point x="859" y="496" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

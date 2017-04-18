@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kappa" format="2">
+  <advance width="1155"/>
+  <unicode hex="03BA"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="62"/>
+    <component base="kgreenlandic"/>
+  </outline>
+</glyph>

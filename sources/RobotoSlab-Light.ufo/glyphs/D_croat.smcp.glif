@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcroat.smcp" format="2">
+  <advance width="1243"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="23"/>
+    <component base="D.smcp"/>
+    <component base="crossbar" xOffset="-127" yOffset="-144"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscoredbl" format="2">
+  <advance width="1033"/>
+  <unicode hex="2017"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="162"/>
+    <component base="underscore" xOffset="43" yOffset="-243"/>
+    <component base="underscore" xOffset="43"/>
+  </outline>
+</glyph>

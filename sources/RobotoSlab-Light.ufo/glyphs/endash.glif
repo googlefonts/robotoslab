@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash" format="2">
+  <advance width="1407"/>
+  <unicode hex="2013"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="161" yOffset="686"/>
+    <component base="minus" xScale="1.3" xOffset="-39"/>
+  </outline>
+</glyph>

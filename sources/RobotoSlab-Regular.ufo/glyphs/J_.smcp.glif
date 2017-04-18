@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="J.smcp" format="2">
+  <advance width="1081"/>
+  <outline>
+    <contour>
+      <point x="1049" y="1038" type="line"/>
+      <point x="886" y="1010" type="line"/>
+      <point x="886" y="354" type="line" smooth="yes"/>
+      <point x="886" y="184"/>
+      <point x="660" y="-17"/>
+      <point x="484" y="-17" type="qcurve" smooth="yes"/>
+      <point x="289" y="-17"/>
+      <point x="63" y="161"/>
+      <point x="69" y="331" type="qcurve"/>
+      <point x="71" y="337" type="line"/>
+      <point x="259" y="337" type="line"/>
+      <point x="259" y="236"/>
+      <point x="377" y="135"/>
+      <point x="484" y="135" type="qcurve" smooth="yes"/>
+      <point x="572" y="135"/>
+      <point x="690" y="256"/>
+      <point x="690" y="354" type="qcurve" smooth="yes"/>
+      <point x="690" y="1010" type="line"/>
+      <point x="527" y="1038" type="line"/>
+      <point x="527" y="1165" type="line"/>
+      <point x="1049" y="1165" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tcaron.smcp" format="2">
+  <advance width="1150"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="62"/>
+    <component base="T.smcp"/>
+    <component base="caron" xOffset="193"/>
+  </outline>
+</glyph>

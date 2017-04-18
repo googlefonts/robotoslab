@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aring.smcp" format="2">
+  <advance width="1326"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="45"/>
+    <component base="A.smcp"/>
+    <component base="ring" xOffset="339" yOffset="126"/>
+  </outline>
+</glyph>

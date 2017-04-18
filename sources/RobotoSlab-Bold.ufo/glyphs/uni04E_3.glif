@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni04E3" format="2">
+  <advance width="1417"/>
+  <unicode hex="04E3"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="85"/>
+    <component base="uni0438"/>
+    <component base="macron" xOffset="197" yOffset="3"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zcaron.smcp" format="2">
+  <advance width="1115"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="95"/>
+    <component base="Z.smcp"/>
+    <component base="caron" xOffset="171" yOffset="1"/>
+  </outline>
+</glyph>

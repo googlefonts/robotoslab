@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abreve.smcp" format="2">
+  <advance width="1274"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="39"/>
+    <component base="A.smcp"/>
+    <component base="breve" xOffset="211" yOffset="56"/>
+  </outline>
+</glyph>

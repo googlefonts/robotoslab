@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zacute.smcp" format="2">
+  <advance width="1089"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="79"/>
+    <component base="Z.smcp"/>
+    <component base="acute" xOffset="291" yOffset="22"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zdotaccent.smcp" format="2">
+  <advance width="1089"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="79"/>
+    <component base="Z.smcp"/>
+    <component base="dotaccent" xOffset="243" yOffset="25"/>
+  </outline>
+</glyph>

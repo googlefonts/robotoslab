@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cyrillichookleft" format="2">
+  <advance width="419"/>
+  <outline>
+    <contour>
+      <point x="133" y="20" type="line"/>
+      <point x="189" y="-36"/>
+      <point x="263" y="-162"/>
+      <point x="263" y="-223" type="qcurve" smooth="yes"/>
+      <point x="263" y="-286"/>
+      <point x="185" y="-357"/>
+      <point x="125" y="-357" type="qcurve" smooth="yes"/>
+      <point x="83" y="-357"/>
+      <point x="22" y="-331"/>
+      <point x="-1" y="-313" type="qcurve"/>
+      <point x="15" y="-265" type="line"/>
+      <point x="40" y="-282"/>
+      <point x="90" y="-303"/>
+      <point x="125" y="-303" type="qcurve" smooth="yes"/>
+      <point x="176" y="-303"/>
+      <point x="209" y="-246"/>
+      <point x="209" y="-223" type="qcurve" smooth="yes"/>
+      <point x="209" y="-164"/>
+      <point x="145" y="-68"/>
+      <point x="81" y="0" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

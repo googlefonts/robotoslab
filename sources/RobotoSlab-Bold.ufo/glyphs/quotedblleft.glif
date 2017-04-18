@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft" format="2">
+  <advance width="833"/>
+  <unicode hex="201C"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="101" yOffset="1009"/>
+    <component base="quoteleft" xOffset="5"/>
+    <component base="quoteleft" xOffset="342"/>
+  </outline>
+</glyph>

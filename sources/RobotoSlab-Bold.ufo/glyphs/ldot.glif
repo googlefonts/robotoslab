@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldot" format="2">
+  <advance width="873"/>
+  <unicode hex="0140"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="32"/>
+    <component base="l"/>
+    <component base="dotaccent" xOffset="419" yOffset="-575"/>
+  </outline>
+</glyph>

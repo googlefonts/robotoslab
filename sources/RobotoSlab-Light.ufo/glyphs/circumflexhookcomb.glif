@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexhookcomb" format="2">
+  <advance width="1035"/>
+  <outline>
+    <contour>
+      <point x="490" y="1494" type="line"/>
+      <point x="356" y="1494" type="line"/>
+      <point x="102" y="1258" type="line"/>
+      <point x="104" y="1252" type="line"/>
+      <point x="223" y="1252" type="line"/>
+      <point x="422" y="1438" type="line"/>
+      <point x="623" y="1252" type="line"/>
+      <point x="743" y="1252" type="line"/>
+      <point x="745" y="1258" type="line"/>
+    </contour>
+    <contour>
+      <point x="706" y="1378" type="line"/>
+      <point x="706" y="1490" type="line"/>
+      <point x="783" y="1495"/>
+      <point x="842" y="1524"/>
+      <point x="842" y="1562" type="qcurve" smooth="yes"/>
+      <point x="842" y="1602"/>
+      <point x="750" y="1639"/>
+      <point x="679" y="1639" type="qcurve"/>
+      <point x="684" y="1713" type="line"/>
+      <point x="800" y="1713"/>
+      <point x="936" y="1632"/>
+      <point x="936" y="1565" type="qcurve" smooth="yes"/>
+      <point x="936" y="1502"/>
+      <point x="853" y="1437"/>
+      <point x="787" y="1430" type="qcurve"/>
+      <point x="787" y="1378" type="line"/>
+    </contour>
+  </outline>
+</glyph>

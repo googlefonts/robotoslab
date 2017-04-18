@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ycircumflex" format="2">
+  <advance width="1212"/>
+  <unicode hex="0177"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="26"/>
+    <component base="y"/>
+    <component base="circumflex" xOffset="133" yOffset="-7"/>
+  </outline>
+</glyph>

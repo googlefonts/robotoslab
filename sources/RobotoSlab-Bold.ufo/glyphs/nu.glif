@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nu" format="2">
+  <advance width="1167"/>
+  <unicode hex="03BD"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="31"/>
+    <component base="v"/>
+  </outline>
+</glyph>

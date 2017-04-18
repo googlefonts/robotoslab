@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.lnum" format="2">
+  <advance width="1032"/>
+  <outline>
+    <contour>
+      <point x="961" y="1354" type="line"/>
+      <point x="743" y="1074"/>
+      <point x="511" y="496"/>
+      <point x="472" y="122" type="qcurve" smooth="yes"/>
+      <point x="462" y="0" type="line"/>
+      <point x="342" y="0" type="line"/>
+      <point x="352" y="122" type="line" smooth="yes"/>
+      <point x="392" y="492"/>
+      <point x="635" y="1091"/>
+      <point x="837" y="1354" type="qcurve"/>
+      <point x="45" y="1354" type="line"/>
+      <point x="45" y="1456" type="line"/>
+      <point x="961" y="1456" type="line"/>
+    </contour>
+  </outline>
+</glyph>
