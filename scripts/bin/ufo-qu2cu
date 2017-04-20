@@ -1,0 +1,168 @@
+#! /usr/bin/env python
+from __future__ import print_function
+import defcon
+from defcon.tools.bezierMath import joinSegments
+from fontTools.pens.basePen import BasePen, AbstractPen
+from fontTools.pens.recordingPen import RecordingPen
+from fontTools.pens.teePen import TeePen
+from collections import Counter
+import fire
+
+class SimpleQu2CuPen(BasePen):
+    """BasePen will make a simple conversion from quadratic to cubic."""
+    def __init__(self, outPen):
+        # we won't touch components, so we need no glyphSet
+        super(SimpleQu2CuPen, self).__init__(glyphSet=None)
+        self._outPen = outPen
+
+    def _moveTo(self, pt):
+        self._outPen.moveTo(pt)
+
+    def _lineTo(self, pt):
+        self._outPen.lineTo(pt)
+
+    def _curveToOne(self, bcp1, bcp2, pt):
+        self._outPen.curveTo(bcp1, bcp2, pt)
+
+    def _closePath(self):
+        self._outPen.closePath()
+
+    def addComponent(self, glyphName, transformation):
+        self._outPen.addComponent(glyphName, transformation)
+
+class PrintInfo(AbstractPen):
+    def __init__(self):
+        # Keys are: (weight, complexity, name)
+        # Weight is used for sorting the result, as well as the other keys.
+        # Weight and complexity will be inverted for sorting, so heavier then
+        # more complex will be at the top.
+        # Complexity is the number of arguments each call receives.
+        self._counter = Counter()
+
+
+    def moveTo(self, pt):
+        self._counter[(2, 1, 'moveTo')] += 1
+
+    def lineTo(self, pt):
+        self._counter[(2, 1, 'lineTo')] += 1
+
+    def curveTo(self, *points):
+        self._counter[(3, len(points), 'curveTo')] += 1
+
+    def qCurveTo(self, *points):
+        self._counter[(4, len(points), 'qCurveTo')]  += 1
+
+    def closePath(self):
+        self._counter[(0, 0, 'closePath')] += 1
+
+    def endPath(self):
+        self._counter[(0, 0, 'endPath')] += 1
+
+    def addComponent(self, glyphName, transformation):
+        self._counter[(-1, 2, 'addComponent')] += 1
+
+    def print(self):
+        formatter = '{name} {complexity}: {numcalls}'.format
+        def keyfunc(key):
+            """inverse weight and complexity"""
+            return (-key[0], -key[1], key[2])
+
+        for key in sorted(self._counter.keys(), key=keyfunc):
+            _, complexity, name = key
+            print(formatter(complexity=complexity, name=name,
+                                            numcalls=self._counter[key]))
+
+class JoiningQu2CuPen(SimpleQu2CuPen):
+    """BasePen will make a simple conversion from quadratic to cubic."""
+    def __init__(self, outPen):
+        super(JoiningQu2CuPen, self).__init__(outPen)
+        self._collect_cubics = None
+
+    def _curveToOne(self, bcp1, bcp2, pt):
+        if self._collect_cubics != None:
+            self._collect_cubics.append((bcp1, bcp2, pt))
+        else:
+            self._outPen.curveTo(bcp1, bcp2, pt)
+
+    def qCurveTo(self, *points):
+        if len(points) == 3:
+            # This is the case we have in this project: quads with 2 controls
+            # and one implicit on-curve point
+            # we could also try to do something useful in other cases, but
+            # this explores only that one case
+            self._collect_cubics = []
+            # there's a special case in the original BasePen.qCurveTo
+            assert points[-1] is not None
+            # FIXME: this is probably considered super evil, however
+            #  I don't want to copy and alter BasePen for my little experiment.
+            #  See name mangling in python.
+            onCoords1 = self._BasePen__currentPoint
+
+        # This is a bit hackish, we know that BasePen.qCurveTo will eventually
+        # call _curveToOne for each of the two new segments (and also alter
+        # self.__currentPoint).
+        super(JoiningQu2CuPen, self).qCurveTo(*points)
+        if self._collect_cubics is None:
+            return
+        assert len(self._collect_cubics) == 2
+
+        # args: onCoords1, offCoords1, offCoords2, onCoords2, offCoords3, offCoords4, onCoords3
+        cmd1, cmd2 = [list(cmd) for cmd in self._collect_cubics]
+        self._collect_cubics = None
+
+        coords = [onCoords1] + cmd1 + cmd2
+        joined = joinSegments(*coords)
+        self._curveToOne(*joined)
+
+def draw_modifications(glyph, modificationPen):
+    # record contours and components
+    recorder = RecordingPen()
+    glyph.draw(recorder)
+
+    # remove old contours and components
+    glyph.clearContours()
+    glyph.clearComponents()
+
+    # draw modified contours and components
+    recorder.replay(modificationPen)
+
+def modify_glyphs(font, penFactory):
+    for glyph in font:
+        draw_modifications(glyph, penFactory(glyph.getPen()))
+    # request to save the font
+    return True
+
+def print_info(font):
+    allInfoPen = PrintInfo()
+
+    for glyph in font:
+        infoPen = PrintInfo()
+        glyph.draw(TeePen(allInfoPen, infoPen))
+
+        print('###', glyph.name)
+        infoPen.print()
+        print('-'*30)
+
+    print('*** TOTAL ***')
+    allInfoPen.print()
+
+    # request not to save the font
+    return False
+
+def simple(font):
+    modify_glyphs(font, SimpleQu2CuPen)
+
+commands = {
+    'simple': lambda font: modify_glyphs(font, SimpleQu2CuPen)
+  , 'joining': lambda font: modify_glyphs(font, JoiningQu2CuPen)
+  , 'info': print_info
+}
+
+def main(command, sourceUfoPath, targetUfoPath=None):
+    font = defcon.Font(path=sourceUfoPath)
+    if commands[command](font):
+        font.save(path=targetUfoPath)
+
+if __name__ == '__main__':
+    fire.Fire(main)
+
