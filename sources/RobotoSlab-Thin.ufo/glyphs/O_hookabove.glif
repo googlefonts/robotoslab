@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohookabove" format="1">
+  <advance width="1488"/>
+  <unicode hex="1ECE"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="130"/>
+    <component base="O"/>
+    <component base="hook" xOffset="532" yOffset="393"/>
+  </outline>
+</glyph>

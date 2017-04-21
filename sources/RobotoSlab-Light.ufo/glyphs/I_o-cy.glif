@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Io-cy" format="1">
+  <advance width="1286"/>
+  <unicode hex="0401"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="71"/>
+    <component base="E"/>
+    <component base="dieresis" xOffset="154" yOffset="342"/>
+  </outline>
+</glyph>

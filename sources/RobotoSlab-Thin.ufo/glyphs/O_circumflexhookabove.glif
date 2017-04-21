@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ocircumflexhookabove" format="1">
+  <advance width="1488"/>
+  <unicode hex="1ED4"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="130"/>
+    <component base="O"/>
+    <component base="circumflexhookcomb" xOffset="363" yOffset="356"/>
+  </outline>
+</glyph>

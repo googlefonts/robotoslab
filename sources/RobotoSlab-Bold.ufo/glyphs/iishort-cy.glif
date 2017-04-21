@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iishort-cy" format="1">
+  <advance width="1417"/>
+  <unicode hex="0439"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="85"/>
+    <component base="uni0438"/>
+    <component base="breve" xOffset="267" yOffset="105"/>
+  </outline>
+</glyph>

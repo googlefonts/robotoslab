@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gdotaccent" format="1">
+  <advance width="1140"/>
+  <unicode hex="0121"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="112"/>
+    <component base="g"/>
+    <component base="dotaccent" xOffset="369" yOffset="-1"/>
+  </outline>
+</glyph>

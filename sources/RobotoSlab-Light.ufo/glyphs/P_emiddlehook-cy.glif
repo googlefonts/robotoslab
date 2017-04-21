@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Pemiddlehook-cy" format="1">
+  <advance width="2101"/>
+  <unicode hex="04A6"/>
+  <outline>
+    <contour>
+      <point x="65" y="1367" type="line"/>
+      <point x="65" y="1456" type="line"/>
+      <point x="1458" y="1456" type="line"/>
+      <point x="1458" y="1367" type="line"/>
+      <point x="1295" y="1354" type="line"/>
+      <point x="1295" y="835" type="line"/>
+      <point x="1439" y="835" type="line" smooth="yes"/>
+      <point x="1796.3333333333335" y="835.0"/>
+      <point x="2017.0" y="642.6666666666666"/>
+      <point x="2017" y="264" type="curve" smooth="yes"/>
+      <point x="2017.0" y="-38.66666666666663"/>
+      <point x="1856.6666666666665" y="-274.33333333333337"/>
+      <point x="1566" y="-269" type="curve"/>
+      <point x="1560" y="-267" type="line"/>
+      <point x="1559" y="-178" type="line"/>
+      <point x="1781.6666666666665" y="-178.0"/>
+      <point x="1897.0" y="9.333333333333371"/>
+      <point x="1897" y="264" type="curve" smooth="yes"/>
+      <point x="1895.6666666666665" y="573.3333333333333"/>
+      <point x="1725.6666666666665" y="729.0"/>
+      <point x="1439" y="729" type="curve" smooth="yes"/>
+      <point x="1295" y="729" type="line"/>
+      <point x="1295" y="101" type="line"/>
+      <point x="1458" y="88" type="line"/>
+      <point x="1458" y="0" type="line"/>
+      <point x="1013" y="0" type="line"/>
+      <point x="1013" y="88" type="line"/>
+      <point x="1176" y="101" type="line"/>
+      <point x="1176" y="1354" type="line"/>
+      <point x="347" y="1354" type="line"/>
+      <point x="347" y="101" type="line"/>
+      <point x="510" y="88" type="line"/>
+      <point x="510" y="0" type="line"/>
+      <point x="65" y="0" type="line"/>
+      <point x="65" y="88" type="line"/>
+      <point x="228" y="101" type="line"/>
+      <point x="228" y="1354" type="line"/>
+    </contour>
+  </outline>
+</glyph>

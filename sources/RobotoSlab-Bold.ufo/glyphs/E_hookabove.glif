@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ehookabove" format="1">
+  <advance width="1308"/>
+  <unicode hex="1EBA"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="56"/>
+    <component base="E"/>
+    <component base="hook" xOffset="392" yOffset="320"/>
+  </outline>
+</glyph>

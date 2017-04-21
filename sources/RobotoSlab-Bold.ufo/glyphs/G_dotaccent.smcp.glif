@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gdotaccent.smcp" format="1">
+  <advance width="1236"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="99"/>
+    <component base="G.smcp"/>
+    <component base="dotaccent" xOffset="314" yOffset="59"/>
+  </outline>
+</glyph>

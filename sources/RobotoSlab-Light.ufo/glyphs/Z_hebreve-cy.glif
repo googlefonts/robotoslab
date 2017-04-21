@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zhebreve-cy" format="1">
+  <advance width="2029"/>
+  <unicode hex="04C1"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="58"/>
+    <component base="uni0416"/>
+    <component base="breve" xOffset="602" yOffset="378"/>
+  </outline>
+</glyph>

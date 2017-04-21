@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ycircumflex.smcp" format="2">
+<glyph name="Ycircumflex.smcp" format="1">
   <advance width="1195"/>
   <outline>
     <component base=".ttfautohint" xOffset="20"/>

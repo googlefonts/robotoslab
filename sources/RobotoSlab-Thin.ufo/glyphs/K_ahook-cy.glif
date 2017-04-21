@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kahook-cy" format="1">
+  <advance width="1373"/>
+  <unicode hex="04C3"/>
+  <outline>
+    <contour>
+      <point x="70" y="1402" type="line"/>
+      <point x="70" y="1456" type="line"/>
+      <point x="450" y="1456" type="line"/>
+      <point x="450" y="1402" type="line"/>
+      <point x="287" y="1402" type="line"/>
+      <point x="287" y="774" type="line"/>
+      <point x="505" y="774" type="line"/>
+      <point x="1083" y="1456" type="line"/>
+      <point x="1241" y="1456" type="line"/>
+      <point x="1241" y="1402" type="line"/>
+      <point x="1108" y="1402" type="line"/>
+      <point x="583" y="779" type="line"/>
+      <point x="585" y="774" type="line"/>
+      <point x="642" y="774" type="line" smooth="yes"/>
+      <point x="983.3333333333333" y="774.0"/>
+      <point x="1202.0" y="603.6666666666667"/>
+      <point x="1202" y="209" type="curve" smooth="yes"/>
+      <point x="1202.0" y="-52.333333333333314"/>
+      <point x="1049.3333333333333" y="-325.33333333333337"/>
+      <point x="768" y="-320" type="curve"/>
+      <point x="762" y="-318" type="line"/>
+      <point x="762" y="-276" type="line"/>
+      <point x="1002.0" y="-276.0"/>
+      <point x="1148.0" y="-45.6666666666666"/>
+      <point x="1148" y="209" type="curve" smooth="yes"/>
+      <point x="1148.0" y="555.6666666666665"/>
+      <point x="946.0000000000001" y="721.0"/>
+      <point x="642" y="721" type="curve" smooth="yes"/>
+      <point x="287" y="721" type="line"/>
+      <point x="287" y="54" type="line"/>
+      <point x="450" y="54" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="70" y="0" type="line"/>
+      <point x="70" y="54" type="line"/>
+      <point x="233" y="54" type="line"/>
+      <point x="233" y="1402" type="line"/>
+    </contour>
+  </outline>
+</glyph>

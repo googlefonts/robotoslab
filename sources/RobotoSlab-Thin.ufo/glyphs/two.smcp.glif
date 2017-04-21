@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="two.smcp" format="2">
+<glyph name="two.smcp" format="1">
   <advance width="996"/>
   <outline>
     <contour>
@@ -7,26 +7,26 @@
       <point x="80" y="0" type="line"/>
       <point x="80" y="54" type="line"/>
       <point x="542" y="506" type="line" smooth="yes"/>
-      <point x="656" y="624"/>
-      <point x="746" y="785"/>
-      <point x="746" y="864" type="qcurve" smooth="yes"/>
-      <point x="746" y="989"/>
-      <point x="608" y="1127"/>
-      <point x="467" y="1127" type="qcurve" smooth="yes"/>
-      <point x="317" y="1127"/>
-      <point x="153" y="965"/>
-      <point x="153" y="837" type="qcurve"/>
+      <point x="694.0" y="663.3333333333333"/>
+      <point x="746.0" y="758.6666666666667"/>
+      <point x="746" y="864" type="curve" smooth="yes"/>
+      <point x="746.0" y="1030.6666666666667"/>
+      <point x="655.0" y="1127.0"/>
+      <point x="467" y="1127" type="curve" smooth="yes"/>
+      <point x="267.00000000000006" y="1127.0"/>
+      <point x="153.0" y="1007.6666666666667"/>
+      <point x="153" y="837" type="curve"/>
       <point x="106" y="837" type="line"/>
       <point x="104" y="843" type="line"/>
-      <point x="99" y="983"/>
-      <point x="299" y="1181"/>
-      <point x="467" y="1181" type="qcurve" smooth="yes"/>
-      <point x="622" y="1181"/>
-      <point x="800" y="1021"/>
-      <point x="800" y="862" type="qcurve" smooth="yes"/>
-      <point x="800" y="763"/>
-      <point x="663" y="560"/>
-      <point x="542" y="436" type="qcurve" smooth="yes"/>
+      <point x="97.33333333333334" y="1029.6666666666667"/>
+      <point x="243.0" y="1181.0"/>
+      <point x="467" y="1181" type="curve" smooth="yes"/>
+      <point x="673.6666666666667" y="1181.0"/>
+      <point x="800.0" y="1074.0"/>
+      <point x="800" y="862" type="curve" smooth="yes"/>
+      <point x="800.0" y="730.0"/>
+      <point x="703.3333333333333" y="601.3333333333333"/>
+      <point x="542" y="436" type="curve" smooth="yes"/>
       <point x="156" y="60" type="line"/>
       <point x="158" y="54" type="line"/>
       <point x="783" y="54" type="line"/>

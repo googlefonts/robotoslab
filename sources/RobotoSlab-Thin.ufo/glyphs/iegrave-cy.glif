@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iegrave-cy" format="1">
+  <advance width="1104"/>
+  <unicode hex="0450"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="112"/>
+    <component base="e"/>
+    <component base="grave" xOffset="222" yOffset="43"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Abrevehookabove" format="1">
+  <advance width="1471"/>
+  <unicode hex="1EB2"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="41"/>
+    <component base="A"/>
+    <component base="brevehookcomb" xOffset="267" yOffset="316"/>
+  </outline>
+</glyph>

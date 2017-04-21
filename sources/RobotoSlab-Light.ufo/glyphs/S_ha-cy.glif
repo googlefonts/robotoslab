@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Sha-cy" format="1">
+  <advance width="2017"/>
+  <unicode hex="0428"/>
+  <outline>
+    <contour>
+      <point x="77" y="88" type="line"/>
+      <point x="240" y="101" type="line"/>
+      <point x="240" y="1354" type="line"/>
+      <point x="77" y="1367" type="line"/>
+      <point x="77" y="1456" type="line"/>
+      <point x="360" y="1456" type="line"/>
+      <point x="523" y="1456" type="line"/>
+      <point x="523" y="1367" type="line"/>
+      <point x="360" y="1354" type="line"/>
+      <point x="360" y="101" type="line"/>
+      <point x="944" y="101" type="line"/>
+      <point x="944" y="1354" type="line"/>
+      <point x="781" y="1367" type="line"/>
+      <point x="781" y="1456" type="line"/>
+      <point x="1227" y="1456" type="line"/>
+      <point x="1227" y="1367" type="line"/>
+      <point x="1064" y="1354" type="line"/>
+      <point x="1064" y="101" type="line"/>
+      <point x="1648" y="101" type="line"/>
+      <point x="1648" y="1354" type="line"/>
+      <point x="1485" y="1367" type="line"/>
+      <point x="1485" y="1456" type="line"/>
+      <point x="1648" y="1456" type="line"/>
+      <point x="1767" y="1456" type="line"/>
+      <point x="1930" y="1456" type="line"/>
+      <point x="1930" y="1367" type="line"/>
+      <point x="1767" y="1354" type="line"/>
+      <point x="1767" y="101" type="line"/>
+      <point x="1930" y="88" type="line"/>
+      <point x="1930" y="0" type="line"/>
+      <point x="77" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

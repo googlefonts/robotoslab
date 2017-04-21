@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohorngrave" format="1">
+  <advance width="1468"/>
+  <unicode hex="1EDC"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="98"/>
+    <component base="Ohorn"/>
+    <component base="grave" xOffset="349" yOffset="362"/>
+  </outline>
+</glyph>

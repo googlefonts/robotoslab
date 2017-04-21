@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="komisje-cy" format="1">
+  <advance width="1069"/>
+  <unicode hex="050D"/>
+  <outline>
+    <contour>
+      <point x="945" y="537" type="line"/>
+      <point x="962.3333333333333" y="446.33333333333337"/>
+      <point x="972.0" y="371.66666666666663"/>
+      <point x="972" y="301" type="curve"/>
+      <point x="966.6666666666667" y="90.33333333333337"/>
+      <point x="819.0" y="-21.0"/>
+      <point x="599" y="-21" type="curve" smooth="yes"/>
+      <point x="292.33333333333337" y="-21.0"/>
+      <point x="104.0" y="216.0"/>
+      <point x="104" y="520" type="curve" smooth="yes"/>
+      <point x="104" y="562" type="line" smooth="yes"/>
+      <point x="104.0" y="863.3333333333333"/>
+      <point x="284.6666666666668" y="1102.0"/>
+      <point x="578" y="1102" type="curve" smooth="yes"/>
+      <point x="702.0" y="1102.0"/>
+      <point x="797.3333333333333" y="1077.3333333333335"/>
+      <point x="860" y="1036" type="curve"/>
+      <point x="815" y="889" type="line"/>
+      <point x="752.3333333333333" y="925.0"/>
+      <point x="668.6666666666667" y="947.0"/>
+      <point x="578" y="947" type="curve" smooth="yes"/>
+      <point x="394.0" y="947.0"/>
+      <point x="301.0" y="767.3333333333333"/>
+      <point x="301" y="562" type="curve" smooth="yes"/>
+      <point x="301" y="520" type="line" smooth="yes"/>
+      <point x="301.0" y="309.33333333333337"/>
+      <point x="400.33333333333337" y="133.0"/>
+      <point x="599" y="133" type="curve" smooth="yes"/>
+      <point x="725.6666666666667" y="134.33333333333331"/>
+      <point x="771.0" y="189.0"/>
+      <point x="775" y="301" type="curve" smooth="yes"/>
+      <point x="775.0" y="331.66666666666663"/>
+      <point x="773.3333333333333" y="365.66666666666663"/>
+      <point x="772" y="399" type="curve"/>
+      <point x="700" y="410" type="line"/>
+      <point x="700" y="537" type="line"/>
+    </contour>
+  </outline>
+</glyph>

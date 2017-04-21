@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="palochka-cy" format="1">
+  <advance width="627"/>
+  <unicode hex="04CF"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="91"/>
+    <component base="I"/>
+  </outline>
+</glyph>

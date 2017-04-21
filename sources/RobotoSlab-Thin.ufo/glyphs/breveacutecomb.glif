@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="breveacutecomb" format="2">
+<glyph name="breveacutecomb" format="1">
   <advance width="804"/>
   <outline>
     <contour>
       <point x="657" y="1456" type="line"/>
       <point x="659" y="1450" type="line"/>
-      <point x="665" y="1361"/>
-      <point x="515" y="1248"/>
-      <point x="386" y="1248" type="qcurve" smooth="yes"/>
-      <point x="255" y="1248"/>
-      <point x="105" y="1361"/>
-      <point x="112" y="1450" type="qcurve"/>
+      <point x="667.0" y="1331.3333333333335"/>
+      <point x="558.0" y="1248.0"/>
+      <point x="386" y="1248" type="curve" smooth="yes"/>
+      <point x="211.33333333333337" y="1248.0"/>
+      <point x="102.66666666666666" y="1331.3333333333335"/>
+      <point x="112" y="1450" type="curve"/>
       <point x="114" y="1456" type="line"/>
       <point x="158" y="1456" type="line"/>
-      <point x="158" y="1383"/>
-      <point x="268" y="1294"/>
-      <point x="386" y="1294" type="qcurve" smooth="yes"/>
-      <point x="499" y="1294"/>
-      <point x="612" y="1385"/>
-      <point x="612" y="1456" type="qcurve"/>
+      <point x="158.0" y="1358.6666666666665"/>
+      <point x="228.66666666666674" y="1294.0"/>
+      <point x="386" y="1294" type="curve" smooth="yes"/>
+      <point x="536.6666666666666" y="1294.0"/>
+      <point x="612.0" y="1361.3333333333335"/>
+      <point x="612" y="1456" type="curve"/>
     </contour>
     <contour>
       <point x="488" y="1637" type="line"/>

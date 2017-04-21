@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twodotenleader" format="1">
+  <advance width="1003"/>
+  <unicode hex="2025"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="137"/>
+    <component base="period" xOffset="8"/>
+    <component base="period" xOffset="481"/>
+  </outline>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gestrokehook-cy" format="1">
+  <advance width="1180"/>
+  <unicode hex="04FA"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="50"/>
+    <component base="Gamma" xOffset="34"/>
+    <component base="crossbar" xOffset="-100" yOffset="68"/>
+    <component base="cyrillichook" xOffset="212" yOffset="-21"/>
+  </outline>
+</glyph>

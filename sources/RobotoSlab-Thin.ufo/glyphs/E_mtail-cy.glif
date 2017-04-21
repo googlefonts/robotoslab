@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Emtail-cy" format="1">
+  <advance width="1824"/>
+  <unicode hex="04CD"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="71"/>
+    <component base="M"/>
+    <component base="comma" xOffset="1571" yOffset="-24"/>
+  </outline>
+</glyph>

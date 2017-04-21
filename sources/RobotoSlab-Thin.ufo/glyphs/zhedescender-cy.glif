@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zhedescender-cy" format="1">
+  <advance width="1801"/>
+  <unicode hex="0497"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="75"/>
+    <component base="uni0436"/>
+    <component base="cyrillictic" xOffset="1539"/>
+  </outline>
+</glyph>

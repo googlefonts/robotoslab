@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflexhookcomb" format="2">
+<glyph name="circumflexhookcomb" format="1">
   <advance width="1032"/>
   <outline>
     <contour>
@@ -16,19 +16,19 @@
     <contour>
       <point x="661" y="1368" type="line"/>
       <point x="661" y="1461" type="line"/>
-      <point x="747" y="1467"/>
-      <point x="810" y="1499"/>
-      <point x="810" y="1542" type="qcurve" smooth="yes"/>
-      <point x="810" y="1589"/>
-      <point x="703" y="1629"/>
-      <point x="624" y="1629" type="qcurve"/>
+      <point x="775.6666666666667" y="1469.0"/>
+      <point x="810.0" y="1484.6666666666665"/>
+      <point x="810" y="1542" type="curve" smooth="yes"/>
+      <point x="810.0" y="1604.6666666666665"/>
+      <point x="729.3333333333333" y="1629.0"/>
+      <point x="624" y="1629" type="curve"/>
       <point x="629" y="1684" type="line"/>
-      <point x="736" y="1684"/>
-      <point x="871" y="1611"/>
-      <point x="871" y="1549" type="qcurve" smooth="yes"/>
-      <point x="871" y="1484"/>
-      <point x="782" y="1418"/>
-      <point x="707" y="1412" type="qcurve"/>
+      <point x="771.6666666666667" y="1684.0"/>
+      <point x="871.0" y="1631.6666666666665"/>
+      <point x="871" y="1549" type="curve" smooth="yes"/>
+      <point x="871.0" y="1462.3333333333335"/>
+      <point x="807.0" y="1420.0"/>
+      <point x="707" y="1412" type="curve"/>
       <point x="707" y="1368" type="line"/>
     </contour>
   </outline>

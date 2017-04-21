@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="titlocomb-cy" format="1">
+  <advance width="980"/>
+  <unicode hex="0483"/>
+  <outline>
+    <contour>
+      <point x="315" y="1312" type="line"/>
+      <point x="315" y="1186" type="line"/>
+      <point x="138" y="1187" type="line"/>
+      <point x="139" y="1425" type="line"/>
+      <point x="685" y="1425" type="line"/>
+      <point x="684" y="1533" type="line"/>
+      <point x="861" y="1532" type="line"/>
+      <point x="861" y="1312" type="line"/>
+    </contour>
+  </outline>
+</glyph>

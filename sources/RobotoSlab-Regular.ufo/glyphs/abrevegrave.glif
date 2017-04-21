@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abrevegrave" format="1">
+  <advance width="1128"/>
+  <unicode hex="1EB1"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="104"/>
+    <component base="a"/>
+    <component base="brevegravecomb" xOffset="122" yOffset="30"/>
+  </outline>
+</glyph>

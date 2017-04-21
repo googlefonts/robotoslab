@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="softsign-cy" format="1">
+  <advance width="1254"/>
+  <unicode hex="044C"/>
+  <outline>
+    <contour>
+      <point x="539" y="1082" type="line"/>
+      <point x="539" y="733" type="line"/>
+      <point x="742" y="733" type="line" smooth="yes"/>
+      <point x="1035.3333333333333" y="733.0"/>
+      <point x="1211.0" y="590.6666666666666"/>
+      <point x="1211" y="372" type="curve" smooth="yes"/>
+      <point x="1211.0" y="147.9999999999999"/>
+      <point x="1034.0" y="0.0"/>
+      <point x="742" y="0" type="curve" smooth="yes"/>
+      <point x="91" y="0" type="line"/>
+      <point x="91" y="175" type="line"/>
+      <point x="247" y="205" type="line"/>
+      <point x="247" y="876" type="line"/>
+      <point x="91" y="906" type="line"/>
+      <point x="91" y="1082" type="line"/>
+      <point x="247" y="1082" type="line"/>
+    </contour>
+    <contour>
+      <point x="539" y="522" type="line"/>
+      <point x="539" y="223" type="line"/>
+      <point x="742" y="223" type="line" smooth="yes"/>
+      <point x="862.0" y="223.0"/>
+      <point x="920.0" y="282.0"/>
+      <point x="920" y="370" type="curve" smooth="yes"/>
+      <point x="920.0" y="460.66666666666663"/>
+      <point x="863.3333333333333" y="522.0"/>
+      <point x="742" y="522" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="695" y="1082" type="line"/>
+      <point x="695" y="906" type="line"/>
+      <point x="539" y="876" type="line"/>
+      <point x="539" y="1082" type="line"/>
+    </contour>
+  </outline>
+</glyph>

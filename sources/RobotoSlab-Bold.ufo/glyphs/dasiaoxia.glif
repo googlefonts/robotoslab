@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dasiaoxia" format="2">
+<glyph name="dasiaoxia" format="1">
   <advance width="819"/>
   <outline>
     <contour>
@@ -12,13 +12,13 @@
     </contour>
     <contour>
       <point x="114" y="1228" type="line" smooth="yes"/>
-      <point x="114" y="1316"/>
-      <point x="204" y="1456"/>
-      <point x="281" y="1495" type="qcurve"/>
+      <point x="114.0" y="1345.3333333333335"/>
+      <point x="178.33333333333337" y="1443.0"/>
+      <point x="281" y="1495" type="curve"/>
       <point x="364" y="1411" type="line"/>
-      <point x="322" y="1379"/>
-      <point x="287" y="1286"/>
-      <point x="287" y="1222" type="qcurve" smooth="yes"/>
+      <point x="308.0" y="1368.3333333333335"/>
+      <point x="287.0" y="1307.3333333333335"/>
+      <point x="287" y="1222" type="curve" smooth="yes"/>
       <point x="287" y="1135" type="line"/>
       <point x="114" y="1135" type="line"/>
     </contour>

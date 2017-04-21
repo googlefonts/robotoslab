@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gestrokehook-cy" format="1">
+  <advance width="964"/>
+  <unicode hex="04FB"/>
+  <outline>
+    <contour>
+      <point x="275" y="980" type="line"/>
+      <point x="112" y="994" type="line"/>
+      <point x="112" y="1082" type="line"/>
+      <point x="942" y="1082" type="line"/>
+      <point x="942" y="1065" type="line"/>
+      <point x="957" y="1065" type="line"/>
+      <point x="957" y="849" type="line"/>
+      <point x="869" y="849" type="line"/>
+      <point x="860" y="979" type="line"/>
+      <point x="394" y="979" type="line"/>
+      <point x="394" y="102" type="line"/>
+      <point x="557" y="88" type="line"/>
+      <point x="557" y="0" type="line"/>
+      <point x="112" y="0" type="line"/>
+      <point x="112" y="88" type="line"/>
+      <point x="275" y="102" type="line"/>
+    </contour>
+    <contour>
+      <point x="666" y="562" type="line"/>
+      <point x="54" y="562" type="line"/>
+      <point x="54" y="664" type="line"/>
+      <point x="666" y="664" type="line"/>
+    </contour>
+    <contour>
+      <point x="575" y="61" type="line"/>
+      <point x="575" y="-81" type="line" smooth="yes"/>
+      <point x="575.0" y="-275.66666666666663"/>
+      <point x="473.66666666666663" y="-387.0"/>
+      <point x="303" y="-387" type="curve" smooth="yes"/>
+      <point x="264.3333333333334" y="-387.0"/>
+      <point x="234.6666666666667" y="-380.0"/>
+      <point x="192" y="-368" type="curve"/>
+      <point x="205" y="-265" type="line"/>
+      <point x="202.33333333333331" y="-263.66666666666663"/>
+      <point x="280.33333333333337" y="-280.0"/>
+      <point x="303" y="-280" type="curve" smooth="yes"/>
+      <point x="400.33333333333337" y="-280.0"/>
+      <point x="456.0" y="-207.66666666666666"/>
+      <point x="456" y="-81" type="curve" smooth="yes"/>
+      <point x="456" y="61" type="line"/>
+    </contour>
+  </outline>
+</glyph>

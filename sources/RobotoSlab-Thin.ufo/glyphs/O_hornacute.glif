@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohornacute" format="1">
+  <advance width="1453"/>
+  <unicode hex="1EDA"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="120"/>
+    <component base="Ohorn"/>
+    <component base="acute" xOffset="560" yOffset="345"/>
+  </outline>
+</glyph>

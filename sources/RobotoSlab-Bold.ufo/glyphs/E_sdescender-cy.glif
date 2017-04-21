@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Esdescender-cy" format="1">
+  <advance width="1327"/>
+  <unicode hex="04AA"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="52"/>
+    <component base="C"/>
+    <component base="cyrillictic" xOffset="438" yOffset="-2"/>
+  </outline>
+</glyph>

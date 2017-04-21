@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="abreve-cy" format="1">
+  <advance width="1125"/>
+  <unicode hex="04D1"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="74"/>
+    <component base="a"/>
+    <component base="breve" xOffset="120" yOffset="103"/>
+  </outline>
+</glyph>

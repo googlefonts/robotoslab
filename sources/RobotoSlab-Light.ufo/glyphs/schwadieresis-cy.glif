@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="schwadieresis-cy" format="1">
+  <advance width="1070"/>
+  <unicode hex="04DB"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="94"/>
+    <component base="schwa"/>
+    <component base="dieresis" xOffset="54" yOffset="21"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Endescender-cy" format="1">
+  <advance width="1573"/>
+  <unicode hex="04A2"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="71"/>
+    <component base="H"/>
+    <component base="cyrillictic" xOffset="1204"/>
+  </outline>
+</glyph>

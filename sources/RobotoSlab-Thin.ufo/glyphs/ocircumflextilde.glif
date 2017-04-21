@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ocircumflextilde" format="1">
+  <advance width="1155"/>
+  <unicode hex="1ED7"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="104"/>
+    <component base="o"/>
+    <component base="circumflextildecomb" xOffset="208" yOffset="-4"/>
+  </outline>
+</glyph>

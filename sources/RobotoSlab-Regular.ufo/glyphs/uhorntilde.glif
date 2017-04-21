@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uhorntilde" format="1">
+  <advance width="1439"/>
+  <unicode hex="1EEF"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="63"/>
+    <component base="uhorn"/>
+    <component base="tilde" xOffset="105" yOffset="27"/>
+  </outline>
+</glyph>

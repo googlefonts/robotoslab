@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemetright" format="1">
+  <advance width="938"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="105" yOffset="152"/>
+    <component base="guilsinglright" xOffset="22"/>
+    <component base="guilsinglright" xOffset="367"/>
+  </outline>
+</glyph>

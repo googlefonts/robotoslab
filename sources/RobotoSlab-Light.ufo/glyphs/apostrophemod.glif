@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="apostrophemod" format="1">
+  <advance width="364"/>
+  <unicode hex="02BC"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="62" yOffset="1055"/>
+    <component base="quoteright"/>
+  </outline>
+</glyph>

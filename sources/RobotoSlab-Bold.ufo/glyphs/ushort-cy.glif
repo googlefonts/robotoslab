@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ushort-cy" format="1">
+  <advance width="1212"/>
+  <unicode hex="045E"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="26"/>
+    <component base="y"/>
+    <component base="breve" xOffset="136" yOffset="90"/>
+  </outline>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ghestroke-cy" format="1">
+  <advance width="1209"/>
+  <unicode hex="0492"/>
+  <outline>
+    <contour>
+      <point x="77" y="88" type="line"/>
+      <point x="240" y="101" type="line"/>
+      <point x="240" y="703" type="line"/>
+      <point x="91" y="703" type="line"/>
+      <point x="91" y="805" type="line"/>
+      <point x="240" y="805" type="line"/>
+      <point x="240" y="1354" type="line"/>
+      <point x="77" y="1367" type="line"/>
+      <point x="77" y="1456" type="line"/>
+      <point x="1116" y="1456" type="line"/>
+      <point x="1116" y="1149" type="line"/>
+      <point x="1009" y="1149" type="line"/>
+      <point x="1000" y="1354" type="line"/>
+      <point x="359" y="1354" type="line"/>
+      <point x="359" y="805" type="line"/>
+      <point x="703" y="805" type="line"/>
+      <point x="703" y="703" type="line"/>
+      <point x="359" y="703" type="line"/>
+      <point x="359" y="101" type="line"/>
+      <point x="522" y="88" type="line"/>
+      <point x="522" y="0" type="line"/>
+      <point x="77" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

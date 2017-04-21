@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ustrait-cy" format="1">
+  <advance width="1084"/>
+  <unicode hex="04AF"/>
+  <outline>
+    <component base=".ttfautohint"/>
+    <component base="gamma"/>
+  </outline>
+</glyph>

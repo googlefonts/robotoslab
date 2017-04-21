@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Izhitsadblgrave-cy" format="1">
+  <advance width="1387"/>
+  <unicode hex="0476"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="57"/>
+    <component base="uni0474"/>
+    <component base="uni030F" xOffset="139" yOffset="292"/>
+  </outline>
+</glyph>

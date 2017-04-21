@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="D" format="2">
+<glyph name="D" format="1">
   <advance width="1419"/>
   <unicode hex="0044"/>
   <outline>
     <contour>
       <point x="681" y="1456" type="line" smooth="yes"/>
-      <point x="966" y="1456"/>
-      <point x="1313" y="1105"/>
-      <point x="1313" y="827" type="qcurve" smooth="yes"/>
+      <point x="1061.0" y="1456.0"/>
+      <point x="1313.0" y="1197.6666666666665"/>
+      <point x="1313" y="827" type="curve" smooth="yes"/>
       <point x="1313" y="628" type="line" smooth="yes"/>
-      <point x="1313" y="349"/>
-      <point x="966" y="0"/>
-      <point x="681" y="0" type="qcurve" smooth="yes"/>
+      <point x="1313.0" y="256.00000000000006"/>
+      <point x="1061.0" y="0.0"/>
+      <point x="681" y="0" type="curve" smooth="yes"/>
       <point x="71" y="0" type="line"/>
       <point x="71" y="126" type="line"/>
       <point x="234" y="154" type="line"/>
@@ -24,13 +24,13 @@
       <point x="431" y="1301" type="line"/>
       <point x="431" y="154" type="line"/>
       <point x="681" y="154" type="line" smooth="yes"/>
-      <point x="883" y="154"/>
-      <point x="1116" y="420"/>
-      <point x="1116" y="628" type="qcurve" smooth="yes"/>
+      <point x="950.3333333333333" y="154.0"/>
+      <point x="1116.0" y="350.6666666666668"/>
+      <point x="1116" y="628" type="curve" smooth="yes"/>
       <point x="1116" y="829" type="line" smooth="yes"/>
-      <point x="1116" y="1035"/>
-      <point x="883" y="1301"/>
-      <point x="681" y="1301" type="qcurve" smooth="yes"/>
+      <point x="1116.0" y="1103.6666666666665"/>
+      <point x="950.3333333333334" y="1301.0"/>
+      <point x="681" y="1301" type="curve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

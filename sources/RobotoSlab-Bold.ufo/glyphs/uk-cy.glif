@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uk-cy" format="1">
+  <advance width="2360"/>
+  <unicode hex="0479"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="63"/>
+    <component base="o"/>
+    <component base="y" xOffset="1148"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Em-cy" format="1">
+  <advance width="1861"/>
+  <unicode hex="041C"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="71"/>
+    <component base="M"/>
+  </outline>
+</glyph>

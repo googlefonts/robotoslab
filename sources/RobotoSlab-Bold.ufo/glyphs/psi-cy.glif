@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="psi-cy" format="1">
+  <advance width="1661"/>
+  <unicode hex="0471"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="29"/>
+    <component base="psi"/>
+  </outline>
+</glyph>

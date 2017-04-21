@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="En-cy" format="1">
+  <advance width="1601"/>
+  <unicode hex="041D"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="56"/>
+    <component base="H"/>
+  </outline>
+</glyph>

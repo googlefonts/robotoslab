@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni010A.smcp" format="2">
-  <advance width="1130"/>
-  <outline>
-    <component base=".ttfautohint" xOffset="118"/>
-    <component base="C.smcp"/>
-    <component base="dotaccent" xOffset="369" yOffset="13"/>
-  </outline>
-</glyph>

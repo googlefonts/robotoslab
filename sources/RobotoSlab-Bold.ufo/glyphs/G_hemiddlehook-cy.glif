@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ghemiddlehook-cy" format="1">
+  <advance width="1323"/>
+  <unicode hex="0494"/>
+  <outline>
+    <contour>
+      <point x="65" y="175" type="line"/>
+      <point x="220" y="205" type="line"/>
+      <point x="220" y="1250" type="line"/>
+      <point x="65" y="1280" type="line"/>
+      <point x="65" y="1456" type="line"/>
+      <point x="1169" y="1456" type="line"/>
+      <point x="1169" y="1087" type="line"/>
+      <point x="945" y="1087" type="line"/>
+      <point x="933" y="1231" type="line"/>
+      <point x="512" y="1231" type="line"/>
+      <point x="512" y="836" type="line"/>
+      <point x="675" y="836" type="line" smooth="yes"/>
+      <point x="1045.6666666666663" y="836.0"/>
+      <point x="1278.0" y="630.0000000000002"/>
+      <point x="1278" y="250" type="curve" smooth="yes"/>
+      <point x="1278.0" y="-83.33333333333331"/>
+      <point x="1108.3333333333333" y="-334.33333333333337"/>
+      <point x="739" y="-329" type="curve"/>
+      <point x="733" y="-327" type="line"/>
+      <point x="733" y="-121" type="line"/>
+      <point x="933.0" y="-121.0"/>
+      <point x="985.6666666666667" y="34.33333333333337"/>
+      <point x="987" y="237" type="curve" smooth="yes"/>
+      <point x="987.0" y="482.33333333333326"/>
+      <point x="877.6666666666667" y="607.0"/>
+      <point x="675" y="607" type="curve" smooth="yes"/>
+      <point x="512" y="607" type="line"/>
+      <point x="512" y="205" type="line"/>
+      <point x="668" y="175" type="line"/>
+      <point x="668" y="0" type="line"/>
+      <point x="65" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

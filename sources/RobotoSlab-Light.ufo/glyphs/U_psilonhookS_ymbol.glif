@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="UpsilonhookSymbol" format="1">
+  <advance width="1257"/>
+  <unicode hex="03D2"/>
+  <outline>
+    <contour>
+      <point x="873" y="1239" type="line" smooth="yes"/>
+      <point x="942.3333333333333" y="1404.3333333333333"/>
+      <point x="1017.3333333333334" y="1467.0"/>
+      <point x="1132" y="1467" type="curve" smooth="yes"/>
+      <point x="1172.0" y="1467.0"/>
+      <point x="1210.0" y="1457.0"/>
+      <point x="1238" y="1441" type="curve"/>
+      <point x="1215" y="1347" type="line"/>
+      <point x="1201.6666666666665" y="1353.6666666666665"/>
+      <point x="1178.6666666666665" y="1362.0"/>
+      <point x="1152" y="1362" type="curve" smooth="yes"/>
+      <point x="1086.6666666666665" y="1362.0"/>
+      <point x="1036.3333333333333" y="1332.3333333333335"/>
+      <point x="987" y="1219" type="curve" smooth="yes"/>
+      <point x="706" y="599" type="line"/>
+      <point x="706" y="0" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="586" y="601" type="line"/>
+      <point x="302" y="1219" type="line" smooth="yes"/>
+      <point x="250.0" y="1332.3333333333335"/>
+      <point x="200.66666666666669" y="1362.0"/>
+      <point x="138" y="1362" type="curve" smooth="yes"/>
+      <point x="110.0" y="1362.0"/>
+      <point x="85.66666666666666" y="1353.6666666666665"/>
+      <point x="75" y="1347" type="curve"/>
+      <point x="52" y="1441" type="line"/>
+      <point x="78.66666666666666" y="1457.0"/>
+      <point x="116.66666666666669" y="1467.0"/>
+      <point x="158" y="1467" type="curve" smooth="yes"/>
+      <point x="271.3333333333333" y="1467.0"/>
+      <point x="346.33333333333337" y="1404.3333333333335"/>
+      <point x="417" y="1239" type="curve" smooth="yes"/>
+      <point x="606" y="813" type="line"/>
+      <point x="642" y="702" type="line"/>
+      <point x="648" y="702" type="line"/>
+      <point x="684" y="813" type="line"/>
+    </contour>
+  </outline>
+</glyph>

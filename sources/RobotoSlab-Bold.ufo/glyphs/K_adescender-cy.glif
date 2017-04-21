@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kadescender-cy" format="1">
+  <advance width="1464"/>
+  <unicode hex="049A"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="56"/>
+    <component base="K"/>
+    <component base="cyrillictic" xOffset="1009"/>
+  </outline>
+</glyph>

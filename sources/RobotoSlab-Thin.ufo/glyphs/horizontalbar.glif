@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horizontalbar" format="1">
+  <advance width="1673"/>
+  <unicode hex="2015"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="165" yOffset="721"/>
+    <component base="minus" xScale="1.6" xOffset="-81"/>
+  </outline>
+</glyph>

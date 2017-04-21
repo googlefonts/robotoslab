@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cheabkhasian-cy" format="1">
+  <advance width="1346"/>
+  <unicode hex="04BD"/>
+  <outline>
+    <contour>
+      <point x="741" y="-21" type="curve" smooth="yes"/>
+      <point x="437.0" y="-21.0"/>
+      <point x="236.33333333333331" y="190.66666666666674"/>
+      <point x="227" y="488" type="curve"/>
+      <point x="71.0" y="538.6666666666667"/>
+      <point x="-13.0" y="673.0"/>
+      <point x="-13" y="865" type="curve"/>
+      <point x="170" y="865" type="line"/>
+      <point x="170.0" y="786.3333333333333"/>
+      <point x="193.33333333333331" y="727.3333333333333"/>
+      <point x="240" y="690" type="curve"/>
+      <point x="288.0" y="939.3333333333333"/>
+      <point x="464.33333333333326" y="1102.0"/>
+      <point x="715" y="1102" type="curve" smooth="yes"/>
+      <point x="1007.0000000000001" y="1102.0"/>
+      <point x="1176.0" y="912.9999999999999"/>
+      <point x="1176" y="613" type="curve" smooth="yes"/>
+      <point x="1176" y="454" type="line"/>
+      <point x="530" y="454" type="line"/>
+      <point x="528" y="448" type="line"/>
+      <point x="538.6666666666667" y="305.33333333333337"/>
+      <point x="626.6666666666667" y="203.0"/>
+      <point x="772" y="203" type="curve" smooth="yes"/>
+      <point x="901.3333333333333" y="203.0"/>
+      <point x="971.6666666666667" y="228.0"/>
+      <point x="1073" y="284" type="curve"/>
+      <point x="1152" y="104" type="line"/>
+      <point x="1062.6666666666665" y="33.33333333333334"/>
+      <point x="915.6666666666667" y="-21.0"/>
+    </contour>
+    <contour>
+      <point x="715" y="877" type="curve" smooth="yes"/>
+      <point x="607.0" y="877.0"/>
+      <point x="543.6666666666667" y="786.6666666666667"/>
+      <point x="529" y="652" type="curve"/>
+      <point x="532" y="647" type="line"/>
+      <point x="890" y="647" type="line"/>
+      <point x="890" y="673" type="line" smooth="yes"/>
+      <point x="890.0" y="797.0"/>
+      <point x="832.3333333333333" y="877.0"/>
+    </contour>
+  </outline>
+</glyph>

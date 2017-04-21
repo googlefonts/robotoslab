@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zedieresis-cy" format="1">
+  <advance width="1216"/>
+  <unicode hex="04DE"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="71"/>
+    <component base="uni0417"/>
+    <component base="dieresis" xOffset="118" yOffset="352"/>
+  </outline>
+</glyph>

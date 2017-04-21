@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eltail-cy" format="1">
+  <advance width="1507"/>
+  <unicode hex="04C5"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="57"/>
+    <component base="uni041B"/>
+    <component base="comma" xOffset="1277" yOffset="-45"/>
+  </outline>
+</glyph>

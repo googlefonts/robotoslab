@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ldot.smcp" format="2">
+<glyph name="Ldot.smcp" format="1">
   <advance width="1023"/>
   <outline>
     <component base=".ttfautohint" xOffset="31"/>

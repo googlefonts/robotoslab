@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdouble" format="1">
+  <advance width="1014"/>
+  <unicode hex="203C"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="119"/>
+    <component base="exclam"/>
+    <component base="exclam" xOffset="507"/>
+  </outline>
+</glyph>

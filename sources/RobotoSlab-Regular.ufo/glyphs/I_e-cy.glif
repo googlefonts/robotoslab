@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ie-cy" format="1">
+  <advance width="1306"/>
+  <unicode hex="0415"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="71"/>
+    <component base="E"/>
+  </outline>
+</glyph>

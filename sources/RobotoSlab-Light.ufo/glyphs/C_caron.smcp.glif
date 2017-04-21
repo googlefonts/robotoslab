@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ccaron.smcp" format="2">
+<glyph name="Ccaron.smcp" format="1">
   <advance width="1148"/>
   <outline>
     <component base=".ttfautohint" xOffset="115"/>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dasiapneumatacomb-cy" format="1">
+  <advance width="475"/>
+  <unicode hex="0485"/>
+  <outline>
+    <contour>
+      <point x="126" y="1500" type="line"/>
+      <point x="126" y="1633" type="line"/>
+      <point x="264" y="1633" type="line"/>
+      <point x="263" y="1493" type="line"/>
+      <point x="325" y="1372" type="line"/>
+      <point x="268" y="1326" type="line"/>
+    </contour>
+  </outline>
+</glyph>

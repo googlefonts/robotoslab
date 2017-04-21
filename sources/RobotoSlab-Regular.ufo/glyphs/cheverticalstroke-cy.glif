@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cheverticalstroke-cy" format="1">
+  <advance width="1352"/>
+  <unicode hex="04B9"/>
+  <outline>
+    <contour>
+      <point x="764" y="226" type="line"/>
+      <point x="606" y="226" type="line"/>
+      <point x="606" y="793" type="line"/>
+      <point x="764" y="793" type="line"/>
+    </contour>
+    <contour>
+      <point x="614" y="1083" type="line"/>
+      <point x="614" y="957" type="line"/>
+      <point x="451" y="929" type="line"/>
+      <point x="451" y="765" type="line" smooth="yes"/>
+      <point x="451.0" y="591.6666666666667"/>
+      <point x="525.3333333333333" y="513.0"/>
+      <point x="672" y="513" type="curve" smooth="yes"/>
+      <point x="760.0" y="513.0"/>
+      <point x="838.3333333333333" y="523.0"/>
+      <point x="917" y="543" type="curve"/>
+      <point x="917" y="927" type="line"/>
+      <point x="754" y="955" type="line"/>
+      <point x="754" y="1082" type="line"/>
+      <point x="1277" y="1082" type="line"/>
+      <point x="1277" y="955" type="line"/>
+      <point x="1114" y="927" type="line"/>
+      <point x="1114" y="154" type="line"/>
+      <point x="1277" y="126" type="line"/>
+      <point x="1277" y="0" type="line"/>
+      <point x="754" y="0" type="line"/>
+      <point x="754" y="126" type="line"/>
+      <point x="917" y="154" type="line"/>
+      <point x="917" y="386" type="line"/>
+      <point x="839.6666666666667" y="366.0"/>
+      <point x="761.3333333333333" y="357.0"/>
+      <point x="672" y="357" type="curve" smooth="yes"/>
+      <point x="410.66666666666674" y="357.0"/>
+      <point x="254.0" y="495.66666666666674"/>
+      <point x="254" y="765" type="curve" smooth="yes"/>
+      <point x="254" y="929" type="line"/>
+      <point x="91" y="957" type="line"/>
+      <point x="91" y="1083" type="line"/>
+      <point x="451" y="1083" type="line"/>
+    </contour>
+  </outline>
+</glyph>

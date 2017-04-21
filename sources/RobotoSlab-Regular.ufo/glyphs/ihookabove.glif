@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ihookabove" format="1">
+  <advance width="672"/>
+  <unicode hex="1EC9"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="90"/>
+    <component base="dotlessi"/>
+    <component base="hook" xOffset="131" yOffset="11"/>
+  </outline>
+</glyph>

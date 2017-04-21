@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Emacron.smcp" format="2">
+<glyph name="Emacron.smcp" format="1">
   <advance width="1169"/>
   <outline>
     <component base=".ttfautohint" xOffset="88"/>

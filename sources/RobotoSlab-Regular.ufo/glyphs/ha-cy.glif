@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ha-cy" format="1">
+  <advance width="1192"/>
+  <unicode hex="0445"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="62"/>
+    <component base="x"/>
+  </outline>
+</glyph>

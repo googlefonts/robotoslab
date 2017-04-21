@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflexacute" format="1">
+  <advance width="1132"/>
+  <unicode hex="1EA5"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="104"/>
+    <component base="a"/>
+    <component base="circumflexacutecomb" xOffset="167" yOffset="1"/>
+  </outline>
+</glyph>

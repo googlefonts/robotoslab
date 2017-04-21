@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kje-cy" format="1">
+  <advance width="1417"/>
+  <unicode hex="040C"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="71"/>
+    <component base="K"/>
+    <component base="acute" xOffset="481" yOffset="309"/>
+  </outline>
+</glyph>

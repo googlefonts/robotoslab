@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Etilde" format="1">
+  <advance width="1270"/>
+  <unicode hex="1EBC"/>
+  <outline>
+    <component base=".ttfautohint" xOffset="71"/>
+    <component base="E"/>
+    <component base="tilde" xOffset="202" yOffset="329"/>
+  </outline>
+</glyph>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name=".ttfautohint" format="2">
+<glyph name=".ttfautohint" format="1">
   <advance width="507"/>
   <outline>
-    <contour>
-      <point x="0" y="0" type="line"/>
-    </contour>
   </outline>
 </glyph>
