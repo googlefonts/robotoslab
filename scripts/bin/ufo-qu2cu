@@ -6,6 +6,7 @@ from fontTools.pens.basePen import BasePen, AbstractPen
 from fontTools.pens.recordingPen import RecordingPen
 from fontTools.pens.teePen import TeePen
 from collections import Counter
+import sys
 import fire
 
 class SimpleQu2CuPen(BasePen):
@@ -149,20 +150,55 @@ def print_info(font):
     # request not to save the font
     return False
 
-def simple(font):
-    modify_glyphs(font, SimpleQu2CuPen)
+def _run(sourceUfoPath, targetUfoPath, func, ufoFormatVersion=None):
+    if sourceUfoPath == '|':
+        # read pickle serialization from stdin
+        font = defcon.Font()
+        font.deserialize(sys.stdin.read())
+    else:
+        font = defcon.Font(path=sourceUfoPath)
 
-commands = {
-    'simple': lambda font: modify_glyphs(font, SimpleQu2CuPen)
-  , 'joining': lambda font: modify_glyphs(font, JoiningQu2CuPen)
-  , 'info': print_info
-}
+    if not func(font):
+        return
 
-def main(command, sourceUfoPath, targetUfoPath=None):
-    font = defcon.Font(path=sourceUfoPath)
-    if commands[command](font):
-        font.save(path=targetUfoPath)
+    if targetUfoPath == '|' or sourceUfoPath == '|' and  targetUfoPath is None:
+        # write pickle serialization to stdout
+        sys.stdout.write(font.serialize())
+    else:
+        font.save(targetUfoPath, formatVersion=ufoFormatVersion)
+
+
+def simple(sourceUfoPath, targetUfoPath=None, ufoFormatVersion=None):
+    """
+    Arguments:
+    SOURCEUFOPATH: path to a ufo directory or \| to read pickled defcon object from stdin
+    TARGETUFOPATH: None to write to sourceUfoPath, \| to write pickled to stdout, path to save ufo at path
+    UFOFORMATVERSION: if the font UFO is written to disk, save with this version (default: 3)
+    """
+    func = lambda font: modify_glyphs(font, SimpleQu2CuPen)
+    _run(sourceUfoPath, targetUfoPath, func, ufoFormatVersion)
+
+def joining(sourceUfoPath, targetUfoPath=None, ufoFormatVersion=None):
+    """
+    Arguments:
+    SOURCEUFOPATH: path to a ufo directory or \| to read pickled defcon object from stdin
+    TARGETUFOPATH: None to write to sourceUfoPath, \| to write pickled to stdout, path to save ufo at path
+    UFOFORMATVERSION: if the font UFO is written to disk, save with this version (default: 3)
+    """
+    func = lambda font: modify_glyphs(font, JoiningQu2CuPen)
+    _run(sourceUfoPath, targetUfoPath, func, ufoFormatVersion)
+
+def info(sourceUfoPath):
+    """
+    Arguments:
+    SOURCEUFOPATH: path to a ufo directory or \| to read pickled defcon object from stdin
+    """
+    _run(sourceUfoPath, None, print_info)
 
 if __name__ == '__main__':
-    fire.Fire(main)
+    fire.Fire({
+        'simple': simple
+      , 'joining': joining
+      , 'info': info
+    })
 
