@@ -3,15 +3,22 @@
 import extractor
 import defcon
 import sys
+import fire
 
-def main(fromfile, todir):
-    ufo = defcon.Font()
-    extractor.extractUFO(fromfile, ufo)
-    ufo.save(todir)
+def main(fromfile, targetUfoPath=None, ufoFormatVersion=None):
+    """ Use extractor to make a UFO from a binary font file
+
+    FROMFILE: OpenType font file.
+    TARGETUFOPATH: directory name of the UFO or \| (default) to write a pickled defcon object to stdout.
+    UFOFORMATVERSION: if the font UFO is written to disk, save with this version (default: 3)
+    """
+    font = defcon.Font()
+    extractor.extractUFO(fromfile, font)
+    if targetUfoPath is None or targetUfoPath == '|':
+        # write pickle serialization to stdout
+        sys.stdout.write(font.serialize())
+    else:
+        font.save(targetUfoPath, formatVersion=ufoFormatVersion)
 
 if __name__ == '__main__':
-    if len(sys.argv) != 3:
-        print('Usage: ttf2ufo fromfilename.ttf toufodirname.ufo.')
-        sys.exit()
-    main(*sys.argv[1:3])
-
+    fire.Fire(main)
