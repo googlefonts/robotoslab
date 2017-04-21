@@ -1,0 +1,6 @@
+#! /bin/sh
+
+init_ufo old/version-1.100263/RobotoSlab-Thin.ttf sources/RobotoSlab-Thin.ufo
+init_ufo old/version-1.100263/RobotoSlab-Light.ttf sources/RobotoSlab-Light.ufo
+init_ufo old/version-1.100263/RobotoSlab-Regular.ttf sources/RobotoSlab-Regular.ufo
+init_ufo old/version-1.100263/RobotoSlab-Bold.ttf sources/RobotoSlab-Bold.ufo

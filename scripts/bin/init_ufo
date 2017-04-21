@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# this is used to document how we got from ttf to ufo initially in this project
+# put ./scripts/bin on your PATH to make it work.
+
+INFILE=$1
+OUTUFO=$2
+
+# otherwise ufoLib expects to read a valid UFO from there and update it
+# but we want to create a new one.
+rm -rf $OUTUFO
+
+# use extractor to make a UFO
+# extractor can't so features yet thus ufo-importfea. However, don't
+# extract gpos, extractor already made kerning.plist
+ttf2ufo $INFILE \
+| ufo-importfea \| $INFILE --blacklist "GPOS"  \
+| ufo-qu2cu joining \| \
+| ufo-glyphnames \| $OUTUFO --ufoFormatVersion 2;
+
+
