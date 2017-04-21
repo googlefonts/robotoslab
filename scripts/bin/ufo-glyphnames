@@ -1,0 +1,176 @@
+#! /usr/bin/env python
+from __future__ import print_function
+import defcon
+from fontTools.feaLib.ast import GlyphName, GlyphClass, asFea;
+from fontTools.feaLib.parser import Parser as FeaParser
+from cStringIO import StringIO
+from functools import partial
+import sys, os
+import json
+import fire
+
+# This is a mess currently, sorry for this!
+# actually there's no sane way to install googleFontsTools without
+# cloning the repository with its thousands of fonts.
+# currently this is only a one shot script, and I keep it for documentation
+# purposes. The googleFontsTools directory was cloned from https://github.com/graphicore/googleFontsTools/
+# and then repaired manually for this installation.
+# There's now an issue: https://github.com/graphicore/googleFontsTools/issues/1
+sys.path.append(os.path.join(os.path.dirname(__file__), '../googleFontsTools'));
+from util.filter_lists import translate_name, get_name_by_unicode
+
+def update_glyphs(font):
+    changed = []
+    changednames = {}
+    for glyph in font:
+        name = None
+        if glyph.unicodes:
+            name = get_name_by_unicode(glyph.unicodes[0])
+        if name is None:
+            name = translate_name(glyph.name)
+        if glyph.name != name:
+            changed.append((glyph, name))
+            changednames[glyph.name] = name
+
+    for glyph, name in changed:
+        if glyph.name in font and font[glyph.name] is glyph:
+            # this will move the glyph
+            glyph.name = name
+        else:
+            # insert at new place, another glyph already took the old place (name collision)
+            font.insertGlyph(glyph, name=name)
+    return changednames
+
+def update_features(font, changednames):
+    features = font.features.text
+    if features is None:
+        return
+
+    featurefilebuffer = StringIO()
+    featurefilebuffer.write(features)
+    featurefilebuffer.seek(0)
+
+    # I think index is irrelevant
+    glyphmap = {name:index for name, index in enumerate(font.keys())}
+    ast = FeaParser(featurefilebuffer,glyphmap).parse()
+
+    # monkey patching
+    glyphClassAsFea_orig = GlyphClass.asFea
+    def glyphClassAsFea(self, indent=""):
+        translate = partial(map,
+            lambda name: changednames[name] if name in changednames else name)
+        self.original = translate(self.original)
+        self.glyphs = translate(self.glyphs)
+        return glyphClassAsFea_orig(self, indent)
+    GlyphClass.asFea = glyphClassAsFea
+
+    def glyphNameAsFea(self, indent=""):
+        name = str(self.glyph)
+        if name in changednames:
+            return changednames[name]
+        return name
+    GlyphName.asFea = glyphNameAsFea
+
+    font.features.text = ast.asFea()
+
+
+def update_groups(font, changednames):
+    # dict
+    # group name => array of glyph names
+    newGroups = {}
+    changedgroupnames = {}
+
+    tranlsate = lambda glyph: changednames[glyph]\
+                                    if glyph in changednames else glyph
+
+    for groupname in font.groups:
+        group = font.groups[groupname]
+
+        newgroupname = None
+        if groupname.startswith('public.kern1.') or groupname.startswith('public.kern2.'):
+            prefix1, prefix2, glyph = groupname.split('.', 2)
+            newgroupname = '.'.join([prefix1, prefix2, tranlsate(glyph)])
+
+        if groupname != newgroupname:
+            changedgroupnames[groupname] = newgroupname
+        newGroups[newgroupname or groupname] = map(tranlsate, group)
+    font.groups.clear()
+    font.groups.update(newGroups)
+    return changedgroupnames;
+
+def update_kerning(font, changedglypnames, changedgroupnames):
+    # dict
+    # glyph-/group name => dict
+    #        glyph-/group name => kerning value
+    # we need to change all keys
+    changednames = {}
+    changednames.update(changedglypnames)
+    changednames.update(changedgroupnames)
+    tranlsate = lambda glyph: changednames[glyph]\
+                                    if glyph in changednames else glyph
+    kerning = font.kerning
+    newKerning = {}
+
+    for pair, value in kerning.items():
+        newKerning[tuple(map(tranlsate, pair))] = value
+    kerning.clear()
+    kerning.update(newKerning)
+
+
+def update_lib(font, changednames):
+    tranlsate = lambda glyph: changednames[glyph]\
+                                    if glyph in changednames else glyph
+    lib = font.lib
+
+    # key "public.glyphorder" => array of glyph names
+    #                            just map the the changes
+    glyphorder = lib.get('public.glyphorder', None)
+    if glyphorder:
+        lib['public.glyphorder'] = map(tranlsate, glyphorder)
+
+
+    # key "public.postscriptNames" => dict
+    #                                 glyph name => value
+    #                   we need to change the key and keep the value
+    postscriptNames = lib.get('public.postscriptNames', None)
+    if postscriptNames:
+        lib['public.postscriptNames'] = {tranlsate(k):v \
+                                    for k, v in postscriptNames.items()}
+
+
+def main(sourceUfoPath, targetUfoPath=None, changednamespath=None, ufoFormatVersion=None):
+    """ Use extractor to make a UFO version 3 from a binary font file
+
+    SOURCEUFOPATH: OpenType font file.
+    TARGETUFOPATH: directory name of the UFO or \| to write a pickled defcon object to stdout.
+    CHANGEDNAMESPATH: optional filename to write to a JSON with dict of names that changed
+    UFOFORMATVERSION: if the font UFO is written to disk, save with this version (default: 3)
+    """
+    if sourceUfoPath == '|':
+        # read pickle serialization from stdin
+        font = defcon.Font()
+        font.deserialize(sys.stdin.read())
+    else:
+        font = defcon.Font(path=sourceUfoPath)
+
+    changednames = update_glyphs(font)
+
+    update_features(font, changednames)
+    changedgroupnames = update_groups(font, changednames)
+    update_kerning(font, changednames, changedgroupnames)
+
+    if changednamespath:
+        # If we need to keep record of the changed names we can extract them
+        # here.
+        with open(changednamespath, 'w') as changednamesfile:
+            json.dump(changednames, changednamesfile)
+
+    if targetUfoPath == '|' or sourceUfoPath == '|' and  targetUfoPath is None:
+        # write pickle serialization to stdout
+        sys.stdout.write(font.serialize())
+    else:
+        font.save(targetUfoPath, formatVersion=ufoFormatVersion)
+
+
+if __name__ == '__main__':
+    fire.Fire(main)
