@@ -1,3 +1,4 @@
 ufo-extractor
 fontmake
 fire
+git+git@github.com:graphicore/extractFea.git#egg=extractfea

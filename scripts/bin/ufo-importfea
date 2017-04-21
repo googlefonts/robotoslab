@@ -1,0 +1,56 @@
+#! /usr/bin/env python
+from __future__ import print_function
+import defcon
+from fontTools.ttLib import TTFont
+from extractFea.extract import ExportQuery, extract
+from functools import partial
+from cStringIO import StringIO
+import sys
+import fire
+
+
+def main(sourceUfoPath, featureSourceFont, targetUfoPath=None, request=None,\
+         whitelist=None, blacklist=None, mute=None, ufoFormatVersion=None):
+    """ Use extractor to make a UFO version 3 from a binary font file
+
+    SOURCEUFOPATH: OpenType font file.
+    FEATURESOURCEFONT: OpenType font from witch to extract the OT features
+    TARGETUFOPATH: directory name of the UFO or \| to write a pickled defcon object to stdout.
+    REQUEST: see extractFea
+    WHITELIST: see extractFea
+    BLACKLIST: see extractFea
+    MUTE: see extractFea
+    UFOFORMATVERSION: if the font UFO is written to disk, save with this version (default: 3)
+
+    extractFea: https://github.com/graphicore/extractFea
+    """
+    if sourceUfoPath == '|':
+        # read pickle serialization from stdin
+        font = defcon.Font()
+        font.deserialize(sys.stdin.read())
+    else:
+        font = defcon.Font(path=sourceUfoPath)
+
+    otfont = TTFont(featureSourceFont)
+    query = ExportQuery(
+        request=request,
+        whitelist=whitelist,
+        blacklist=blacklist,
+        mute=mute
+    )
+
+    stringbuffer = StringIO()
+    printfunc = partial(print, file=stringbuffer)
+    extract(otfont, query, print=printfunc)
+    font.features.text = stringbuffer.getvalue().decode('utf-8')
+
+
+    if targetUfoPath == '|' or sourceUfoPath == '|' and  targetUfoPath is None:
+        # write pickle serialization to stdout
+        sys.stdout.write(font.serialize())
+    else:
+        font.save(targetUfoPath, formatVersion=ufoFormatVersion)
+
+
+if __name__ == '__main__':
+    fire.Fire(main)
