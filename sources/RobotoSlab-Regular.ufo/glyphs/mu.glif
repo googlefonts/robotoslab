@@ -4,6 +4,6 @@
   <unicode hex="03BC"/>
   <outline>
     <component base=".ttfautohint" xOffset="66"/>
-    <component base="mu"/>
+    <component base="micro"/>
   </outline>
 </glyph>

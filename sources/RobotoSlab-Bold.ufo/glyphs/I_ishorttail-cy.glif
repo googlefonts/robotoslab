@@ -4,7 +4,7 @@
   <unicode hex="048A"/>
   <outline>
     <component base=".ttfautohint" xOffset="69"/>
-    <component base="uni0418"/>
+    <component base="Ii-cy"/>
     <component base="breve" xOffset="362" yOffset="427"/>
     <component base="comma" xOffset="1434" yOffset="-50"/>
   </outline>

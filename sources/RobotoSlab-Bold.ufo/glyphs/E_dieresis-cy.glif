@@ -4,7 +4,7 @@
   <unicode hex="04EC"/>
   <outline>
     <component base=".ttfautohint" xOffset="47"/>
-    <component base="uni042D"/>
+    <component base="Ereversed-cy"/>
     <component base="dieresis" xOffset="62" yOffset="348"/>
   </outline>
 </glyph>

@@ -4,7 +4,7 @@
   <unicode hex="1EC9"/>
   <outline>
     <component base=".ttfautohint" xOffset="90"/>
-    <component base="dotlessi"/>
-    <component base="hook" xOffset="79" yOffset="29"/>
+    <component base="idotless"/>
+    <component base="hookabovecomb" xOffset="79" yOffset="29"/>
   </outline>
 </glyph>

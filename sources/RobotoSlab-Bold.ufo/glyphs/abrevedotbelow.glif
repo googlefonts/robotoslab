@@ -6,6 +6,6 @@
     <component base=".ttfautohint" xOffset="74"/>
     <component base="a"/>
     <component base="breve" xOffset="120" yOffset="103"/>
-    <component base="dotbelow" xOffset="269" yOffset="14"/>
+    <component base="dotbelowcomb" xOffset="269" yOffset="14"/>
   </outline>
 </glyph>

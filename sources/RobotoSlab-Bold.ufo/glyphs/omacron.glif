@@ -5,6 +5,6 @@
   <outline>
     <component base=".ttfautohint" xOffset="63"/>
     <component base="o"/>
-    <component base="macron" xOffset="50" yOffset="3"/>
+    <component base="firsttonechinese" xOffset="50" yOffset="3"/>
   </outline>
 </glyph>

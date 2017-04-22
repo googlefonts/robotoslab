@@ -4,7 +4,7 @@
   <unicode hex="04F8"/>
   <outline>
     <component base=".ttfautohint" xOffset="70"/>
-    <component base="uni042C"/>
+    <component base="Softsign-cy"/>
     <component base="I" xOffset="1114"/>
     <component base="dieresis" xOffset="425" yOffset="335"/>
   </outline>

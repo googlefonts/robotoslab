@@ -5,6 +5,6 @@
   <outline>
     <component base=".ttfautohint" xOffset="41"/>
     <component base="A"/>
-    <component base="uni02F3" xOffset="496"/>
+    <component base="lowringmod" xOffset="496"/>
   </outline>
 </glyph>

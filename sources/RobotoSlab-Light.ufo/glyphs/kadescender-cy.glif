@@ -4,7 +4,7 @@
   <unicode hex="049B"/>
   <outline>
     <component base=".ttfautohint" xOffset="97"/>
-    <component base="uni043A"/>
+    <component base="ka-cy"/>
     <component base="cyrillictic" xOffset="944"/>
   </outline>
 </glyph>

@@ -4,8 +4,8 @@
   <unicode hex="04F9"/>
   <outline>
     <component base=".ttfautohint" xOffset="91"/>
-    <component base="uni044C"/>
-    <component base="dotlessi" xOffset="1144"/>
+    <component base="softsign-cy"/>
+    <component base="idotless" xOffset="1144"/>
     <component base="dieresis" xOffset="383" yOffset="28"/>
   </outline>
 </glyph>

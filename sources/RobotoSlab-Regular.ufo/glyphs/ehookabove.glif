@@ -5,6 +5,6 @@
   <outline>
     <component base=".ttfautohint" xOffset="90"/>
     <component base="e"/>
-    <component base="hook" xOffset="341" yOffset="12"/>
+    <component base="hookabovecomb" xOffset="341" yOffset="12"/>
   </outline>
 </glyph>

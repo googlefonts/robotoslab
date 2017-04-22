@@ -4,6 +4,6 @@
   <outline>
     <component base=".ttfautohint" xOffset="67"/>
     <component base="E.smcp"/>
-    <component base="macron" xOffset="91" yOffset="4"/>
+    <component base="firsttonechinese" xOffset="91" yOffset="4"/>
   </outline>
 </glyph>

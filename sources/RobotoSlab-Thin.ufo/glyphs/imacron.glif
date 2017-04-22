@@ -4,7 +4,7 @@
   <unicode hex="012B"/>
   <outline>
     <component base=".ttfautohint"/>
-    <component base="dotlessi"/>
-    <component base="macron" xOffset="-170" yOffset="-12"/>
+    <component base="idotless"/>
+    <component base="firsttonechinese" xOffset="-170" yOffset="-12"/>
   </outline>
 </glyph>
