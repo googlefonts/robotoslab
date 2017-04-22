@@ -11,7 +11,7 @@ import fire
 
 def main(sourceUfoPath, featureSourceFont, targetUfoPath=None, request=None,\
          whitelist=None, blacklist=None, mute=None, ufoFormatVersion=None):
-    """ Use extractor to make a UFO version 3 from a binary font file
+    """ Import a features.fea from an OpenType font.
 
     SOURCEUFOPATH: OpenType font file.
     FEATURESOURCEFONT: OpenType font from witch to extract the OT features
