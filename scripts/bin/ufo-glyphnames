@@ -41,6 +41,13 @@ def update_glyphs(font):
             font.insertGlyph(glyph, name=name)
     return changednames
 
+def update_components(font, changednames):
+    translate = lambda glyph: changednames[glyph]\
+                                    if glyph in changednames else glyph
+    for glyph in font:
+        for component in glyph.components:
+            component.baseGlyph = translate(component.baseGlyph)
+
 def update_features(font, changednames):
     features = font.features.text
     if features is None:
@@ -80,7 +87,7 @@ def update_groups(font, changednames):
     newGroups = {}
     changedgroupnames = {}
 
-    tranlsate = lambda glyph: changednames[glyph]\
+    translate = lambda glyph: changednames[glyph]\
                                     if glyph in changednames else glyph
 
     for groupname in font.groups:
@@ -89,11 +96,11 @@ def update_groups(font, changednames):
         newgroupname = None
         if groupname.startswith('public.kern1.') or groupname.startswith('public.kern2.'):
             prefix1, prefix2, glyph = groupname.split('.', 2)
-            newgroupname = '.'.join([prefix1, prefix2, tranlsate(glyph)])
+            newgroupname = '.'.join([prefix1, prefix2, translate(glyph)])
 
         if groupname != newgroupname:
             changedgroupnames[groupname] = newgroupname
-        newGroups[newgroupname or groupname] = map(tranlsate, group)
+        newGroups[newgroupname or groupname] = map(translate, group)
     font.groups.clear()
     font.groups.update(newGroups)
     return changedgroupnames;
@@ -106,19 +113,19 @@ def update_kerning(font, changedglypnames, changedgroupnames):
     changednames = {}
     changednames.update(changedglypnames)
     changednames.update(changedgroupnames)
-    tranlsate = lambda glyph: changednames[glyph]\
+    translate = lambda glyph: changednames[glyph]\
                                     if glyph in changednames else glyph
     kerning = font.kerning
     newKerning = {}
 
     for pair, value in kerning.items():
-        newKerning[tuple(map(tranlsate, pair))] = value
+        newKerning[tuple(map(translate, pair))] = value
     kerning.clear()
     kerning.update(newKerning)
 
 
 def update_lib(font, changednames):
-    tranlsate = lambda glyph: changednames[glyph]\
+    translate = lambda glyph: changednames[glyph]\
                                     if glyph in changednames else glyph
     lib = font.lib
 
@@ -126,7 +133,7 @@ def update_lib(font, changednames):
     #                            just map the the changes
     glyphorder = lib.get('public.glyphorder', None)
     if glyphorder:
-        lib['public.glyphorder'] = map(tranlsate, glyphorder)
+        lib['public.glyphorder'] = map(translate, glyphorder)
 
 
     # key "public.postscriptNames" => dict
@@ -134,12 +141,12 @@ def update_lib(font, changednames):
     #                   we need to change the key and keep the value
     postscriptNames = lib.get('public.postscriptNames', None)
     if postscriptNames:
-        lib['public.postscriptNames'] = {tranlsate(k):v \
+        lib['public.postscriptNames'] = {translate(k):v \
                                     for k, v in postscriptNames.items()}
 
 
 def main(sourceUfoPath, targetUfoPath=None, changednamespath=None, ufoFormatVersion=None):
-    """ Use extractor to make a UFO version 3 from a binary font file
+    """ Rename glyph names to GlyphsInfo friendly names
 
     SOURCEUFOPATH: OpenType font file.
     TARGETUFOPATH: directory name of the UFO or \| to write a pickled defcon object to stdout.
@@ -154,7 +161,7 @@ def main(sourceUfoPath, targetUfoPath=None, changednamespath=None, ufoFormatVers
         font = defcon.Font(path=sourceUfoPath)
 
     changednames = update_glyphs(font)
-
+    update_components(font, changednames)
     update_features(font, changednames)
     changedgroupnames = update_groups(font, changednames)
     update_kerning(font, changednames, changedgroupnames)
