@@ -1,7 +1,8 @@
 #! /usr/bin/env python
 from __future__ import print_function
 import defcon
-from fontTools.feaLib.ast import GlyphName, GlyphClass, asFea;
+from fontTools.feaLib import ast as feaLibAst
+from fontTools.feaLib.ast import GlyphName, GlyphClass;
 from fontTools.feaLib.parser import Parser as FeaParser
 from cStringIO import StringIO
 from functools import partial
@@ -62,20 +63,17 @@ def update_features(font, changednames):
     ast = FeaParser(featurefilebuffer,glyphmap).parse()
 
     # monkey patching
-    glyphClassAsFea_orig = GlyphClass.asFea
-    def glyphClassAsFea(self, indent=""):
-        translate = partial(map,
-            lambda name: changednames[name] if name in changednames else name)
-        self.original = translate(self.original)
-        self.glyphs = translate(self.glyphs)
-        return glyphClassAsFea_orig(self, indent)
-    GlyphClass.asFea = glyphClassAsFea
+    translate = lambda name: changednames[name] if name in changednames else name
+    translate_all = partial(map, translate)
+
+    oldAsFea = feaLibAst.asFea
+    def newAsFea(g):
+        return oldAsFea(translate(g))
+    feaLibAst.asFea = newAsFea
 
     def glyphNameAsFea(self, indent=""):
         name = str(self.glyph)
-        if name in changednames:
-            return changednames[name]
-        return name
+        return translate(name)
     GlyphName.asFea = glyphNameAsFea
 
     font.features.text = ast.asFea()
