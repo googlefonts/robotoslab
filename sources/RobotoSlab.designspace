@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="400" maximum="1000" minimum="1" name="weight" tag="wght">
+            <labelname xml:lang="en">Weight</labelname>
+        </axis>
+    </axes>
+    <sources>
+        <source filename="./RobotoSlab-Thin.ufo" name="Thin">
+            <lib copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="250" />
+            </location>
+        </source>
+        <source filename="./RobotoSlab-Light.ufo" name="Light">
+            <lib copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="300" />
+            </location>
+        </source>
+        <source filename="./RobotoSlab-Regular.ufo" name="Regular">
+            <lib copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="400" />
+            </location>
+        </source>
+        <source filename="RobotoSlab-Bold.ufo" name="Bold">
+            <lib copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="700" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <!-- instances that map directly to masters -->
+        <instance familyname="RobotoSlab"
+                  filename="instances/RobotoSlab-Light.ufo"
+                  name="Thin"
+                  stylename="Thin">
+            <location>
+                <dimension name="weight" xvalue="250" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="RobotoSlab"
+                  filename="instances/RobotoSlab-Light.ufo"
+                  name="Light"
+                  stylename="Light">
+            <location>
+                <dimension name="weight" xvalue="300" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="RobotoSlab"
+                  filename="instances/RobotoSlab-Regular.ufo"
+                  name="Regular"
+                  stylename="Regular">
+            <location>
+                <dimension name="weight" xvalue="400" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="RobotoSlab"
+                  filename="instances/RobotoSlab-Bold.ufo"
+                  name="Bold"
+                  stylename="Bold">
+            <location>
+                <dimension name="weight" xvalue="700" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <!-- interpolated instances -->
+        <instance familyname="RobotoSLab"
+                  filename="instances/RobotoSLab-ExtraLight.ufo"
+                  name="ExtraLight"
+                  stylename="ExtraLight">
+            <location>
+                <dimension name="weight" xvalue="275" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+            <instance familyname="RobotoSLab"
+                  filename="instances/RobotoSLab-Medium.ufo"
+                  name="Medium"
+                  stylename="Medium">
+            <location>
+                <dimension name="weight" xvalue="500" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>
