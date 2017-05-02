@@ -232,7 +232,7 @@ lookup singleSub_0 {
 
 lookup ligatureSub_1 {
     sub f i by fi;
-    sub f l by uniFB02;
+    sub f l by fl;
 } ligatureSub_1;
 
 lookup singleSub_2 {
