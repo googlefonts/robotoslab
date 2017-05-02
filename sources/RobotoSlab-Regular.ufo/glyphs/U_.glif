@@ -17,7 +17,6 @@
       <point x="1122" y="1301" type="line"/>
       <point x="959" y="1329" type="line"/>
       <point x="959" y="1456" type="line"/>
-      <point x="1319" y="1456" type="line"/>
       <point x="1482" y="1456" type="line"/>
       <point x="1482" y="1329" type="line"/>
       <point x="1319" y="1301" type="line"/>
@@ -31,7 +30,6 @@
       <point x="223" y="1301" type="line"/>
       <point x="60" y="1329" type="line"/>
       <point x="60" y="1456" type="line"/>
-      <point x="223" y="1456" type="line"/>
     </contour>
   </outline>
 </glyph>

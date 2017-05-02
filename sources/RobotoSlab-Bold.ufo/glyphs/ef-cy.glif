@@ -42,7 +42,6 @@
       <point x="606" y="1354" type="line"/>
       <point x="451" y="1384" type="line"/>
       <point x="451" y="1560" type="line"/>
-      <point x="606" y="1560" type="line"/>
     </contour>
     <contour>
       <point x="1143" y="532" type="line" smooth="yes"/>
