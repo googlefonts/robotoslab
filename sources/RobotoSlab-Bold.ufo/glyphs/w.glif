@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="w" format="1">
-  <advance width="1832"/>
+  <advance width="1819"/>
   <unicode hex="0077"/>
   <outline>
     <contour>
-      <point x="1802" y="906" type="line"/>
-      <point x="1666" y="882" type="line"/>
-      <point x="1392" y="0" type="line"/>
-      <point x="1155" y="0" type="line"/>
-      <point x="956" y="538" type="line"/>
-      <point x="921" y="655" type="line"/>
-      <point x="915" y="655" type="line"/>
-      <point x="876" y="544" type="line"/>
-      <point x="683" y="0" type="line"/>
-      <point x="443" y="0" type="line"/>
-      <point x="165" y="882" type="line"/>
+      <point x="1789" y="906" type="line"/>
+      <point x="1663" y="882" type="line"/>
+      <point x="1386" y="0" type="line"/>
+      <point x="1138" y="0" type="line"/>
+      <point x="958" y="518" type="line"/>
+      <point x="913" y="655" type="line"/>
+      <point x="907" y="655" type="line"/>
+      <point x="869" y="544" type="line"/>
+      <point x="677" y="0" type="line"/>
+      <point x="432" y="0" type="line"/>
+      <point x="162" y="882" type="line"/>
       <point x="30" y="906" type="line"/>
       <point x="30" y="1082" type="line"/>
-      <point x="559" y="1082" type="line"/>
-      <point x="559" y="907" type="line"/>
-      <point x="443" y="885" type="line"/>
-      <point x="549" y="493" type="line"/>
+      <point x="553" y="1082" type="line"/>
+      <point x="553" y="907" type="line"/>
+      <point x="437" y="885" type="line"/>
+      <point x="543" y="493" type="line"/>
+      <point x="568" y="383" type="line"/>
       <point x="574" y="383" type="line"/>
-      <point x="580" y="383" type="line"/>
-      <point x="613" y="490" type="line"/>
-      <point x="823" y="1082" type="line"/>
-      <point x="1015" y="1082" type="line"/>
-      <point x="1226" y="464" type="line"/>
+      <point x="608" y="490" type="line"/>
+      <point x="815" y="1082" type="line"/>
+      <point x="1010" y="1082" type="line"/>
+      <point x="1220" y="464" type="line"/>
+      <point x="1247" y="378" type="line"/>
       <point x="1253" y="378" type="line"/>
-      <point x="1259" y="378" type="line"/>
-      <point x="1280" y="448" type="line"/>
-      <point x="1407" y="884" type="line"/>
-      <point x="1283" y="907" type="line"/>
-      <point x="1283" y="1082" type="line"/>
-      <point x="1802" y="1082" type="line"/>
+      <point x="1274" y="448" type="line"/>
+      <point x="1403" y="884" type="line"/>
+      <point x="1277" y="907" type="line"/>
+      <point x="1277" y="1082" type="line"/>
+      <point x="1789" y="1082" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -610,7 +610,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1832</integer>
+          <integer>1819</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
