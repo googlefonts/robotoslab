@@ -1,0 +1,73 @@
+#! /usr/bin/env python
+from __future__ import print_function
+import defcon
+import sys, os
+import fire
+
+
+def downgrade_groups(font):
+    # dict
+    # group name => array of glyph names
+    newGroups = {}
+    changedgroupnames = {}
+    translate = {
+        'kern1': 'L',
+        'kern2': 'R'
+    }
+
+    for groupname in font.groups:
+        group = font.groups[groupname]
+
+        newgroupname = None
+        if groupname.startswith('public.kern1.') or groupname.startswith('public.kern2.'):
+            prefix1, prefix2, glyph = groupname.split('.', 2)
+            newgroupname = '_'.join(['@MMK', translate[prefix2], glyph])
+        if groupname != newgroupname:
+            changedgroupnames[groupname] = newgroupname
+        newGroups[newgroupname or groupname] = list(group)
+    font.groups.clear()
+    font.groups.update(newGroups)
+    return changedgroupnames;
+
+def downgrade_kerning(font, changedgroupnames):
+    # dict
+    # glyph-/group name => dict
+    #        glyph-/group name => kerning value
+    # we need to change all keys
+    translate = lambda item: changedgroupnames[item]\
+                                    if item in changedgroupnames else item
+    kerning = font.kerning
+    newKerning = {}
+    for pair, value in kerning.items():
+        newKerning[tuple(map(translate, pair))] = value
+    kerning.clear()
+    kerning.update(newKerning)
+
+
+def main(sourceUfoPath, targetUfoPath=None, changednamespath=None, ufoFormatVersion=None):
+    """ Rename kerning group names to MetricsMachine compatible names.
+    This assumes we're coming from UFO version 3.
+    ATTENTION always saves as UFO version 2 (when it saves).
+
+    SOURCEUFOPATH: OpenType font file.
+    TARGETUFOPATH: directory name of the UFO or \| to write a pickled defcon object to stdout.
+    """
+    if sourceUfoPath == '|':
+        # read pickle serialization from stdin
+        font = defcon.Font()
+        font.deserialize(sys.stdin.read())
+    else:
+        font = defcon.Font(path=sourceUfoPath)
+
+    changedgroupnames = downgrade_groups(font)
+    downgrade_kerning(font, changedgroupnames)
+
+    if targetUfoPath == '|' or sourceUfoPath == '|' and  targetUfoPath is None:
+        # write pickle serialization to stdout
+        sys.stdout.write(font.serialize())
+    else:
+        font.save(targetUfoPath, formatVersion=2)
+
+
+if __name__ == '__main__':
+    fire.Fire(main)
