@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>public.kern1.A</key>
+	<key>@MMK_L_A</key>
 	<array>
 		<string>A</string>
 		<string>Aacute</string>
@@ -37,13 +37,13 @@
 		<string>Abrevetilde</string>
 		<string>Abrevedotbelow</string>
 	</array>
-	<key>public.kern1.B</key>
+	<key>@MMK_L_B</key>
 	<array>
 		<string>B</string>
 		<string>Beta</string>
 		<string>Ve-cy</string>
 	</array>
-	<key>public.kern1.C</key>
+	<key>@MMK_L_C</key>
 	<array>
 		<string>C</string>
 		<string>Cacute</string>
@@ -54,7 +54,7 @@
 		<string>Es-cy</string>
 		<string>Esdescender-cy</string>
 	</array>
-	<key>public.kern1.Chi</key>
+	<key>@MMK_L_Chi</key>
 	<array>
 		<string>Chi</string>
 		<string>X</string>
@@ -66,7 +66,7 @@
 		<string>Zhedieresis-cy</string>
 		<string>Hahook-cy</string>
 	</array>
-	<key>public.kern1.D</key>
+	<key>@MMK_L_D</key>
 	<array>
 		<string>D</string>
 		<string>Dcaron</string>
@@ -95,7 +95,7 @@
 		<string>Ocircumflexdotbelow</string>
 		<string>Omicrondasiaoxia</string>
 	</array>
-	<key>public.kern1.E</key>
+	<key>@MMK_L_E</key>
 	<array>
 		<string>E</string>
 		<string>Eacute</string>
@@ -122,7 +122,7 @@
 		<string>Ecircumflextilde</string>
 		<string>Ecircumflexdotbelow</string>
 	</array>
-	<key>public.kern1.Eta</key>
+	<key>@MMK_L_Eta</key>
 	<array>
 		<string>Eta</string>
 		<string>Etatonos</string>
@@ -167,7 +167,7 @@
 		<string>Ihookabove</string>
 		<string>Idotbelow</string>
 	</array>
-	<key>public.kern1.Gamma</key>
+	<key>@MMK_L_Gamma</key>
 	<array>
 		<string>Gamma</string>
 		<string>Gje-cy</string>
@@ -176,7 +176,7 @@
 		<string>Ghestroke-cy</string>
 		<string>Gedescender-cy</string>
 	</array>
-	<key>public.kern1.J</key>
+	<key>@MMK_L_J</key>
 	<array>
 		<string>J</string>
 		<string>Jcircumflex</string>
@@ -195,7 +195,7 @@
 		<string>Udotbelow</string>
 		<string>Uhookabove</string>
 	</array>
-	<key>public.kern1.K</key>
+	<key>@MMK_L_K</key>
 	<array>
 		<string>K</string>
 		<string>Kappa</string>
@@ -207,7 +207,7 @@
 		<string>Kastroke-cy</string>
 		<string>Kabashkir-cy</string>
 	</array>
-	<key>public.kern1.L</key>
+	<key>@MMK_L_L</key>
 	<array>
 		<string>L</string>
 		<string>Lacute</string>
@@ -215,7 +215,7 @@
 		<string>Lcommaaccent</string>
 		<string>Ldot</string>
 	</array>
-	<key>public.kern1.Lje-cy</key>
+	<key>@MMK_L_Lje-cy</key>
 	<array>
 		<string>Lje-cy</string>
 		<string>Nje-cy</string>
@@ -223,13 +223,13 @@
 		<string>Softsign-cy</string>
 		<string>Yat-cy</string>
 	</array>
-	<key>public.kern1.P</key>
+	<key>@MMK_L_P</key>
 	<array>
 		<string>P</string>
 		<string>Rho</string>
 		<string>Er-cy</string>
 	</array>
-	<key>public.kern1.T</key>
+	<key>@MMK_L_T</key>
 	<array>
 		<string>T</string>
 		<string>Tau</string>
@@ -240,7 +240,7 @@
 		<string>Te-cy</string>
 		<string>Tedescender-cy</string>
 	</array>
-	<key>public.kern1.Upsilon</key>
+	<key>@MMK_L_Upsilon</key>
 	<array>
 		<string>Upsilon</string>
 		<string>Upsilondieresis</string>
@@ -256,7 +256,7 @@
 		<string>Yhookabove</string>
 		<string>Ytilde</string>
 	</array>
-	<key>public.kern1.Ushort-cy</key>
+	<key>@MMK_L_Ushort-cy</key>
 	<array>
 		<string>Ushort-cy</string>
 		<string>U-cy</string>
@@ -264,13 +264,13 @@
 		<string>Udieresis-cy</string>
 		<string>Uhungarumlaut-cy</string>
 	</array>
-	<key>public.kern1.V</key>
+	<key>@MMK_L_V</key>
 	<array>
 		<string>V</string>
 		<string>Izhitsa-cy</string>
 		<string>Izhitsadblgrave-cy</string>
 	</array>
-	<key>public.kern1.W</key>
+	<key>@MMK_L_W</key>
 	<array>
 		<string>W</string>
 		<string>Wacute</string>
@@ -278,7 +278,7 @@
 		<string>Wdieresis</string>
 		<string>Wgrave</string>
 	</array>
-	<key>public.kern1.Z</key>
+	<key>@MMK_L_Z</key>
 	<array>
 		<string>Z</string>
 		<string>Zacute</string>
@@ -286,7 +286,7 @@
 		<string>Zdotaccent</string>
 		<string>Zeta</string>
 	</array>
-	<key>public.kern1.a</key>
+	<key>@MMK_L_a</key>
 	<array>
 		<string>a</string>
 		<string>aacute</string>
@@ -316,7 +316,7 @@
 		<string>abrevetilde</string>
 		<string>abrevedotbelow</string>
 	</array>
-	<key>public.kern1.b</key>
+	<key>@MMK_L_b</key>
 	<array>
 		<string>b</string>
 		<string>p</string>
@@ -328,7 +328,7 @@
 		<string>ertick-cy</string>
 		<string>edieresis-cy</string>
 	</array>
-	<key>public.kern1.c</key>
+	<key>@MMK_L_c</key>
 	<array>
 		<string>c</string>
 		<string>cacute</string>
@@ -339,7 +339,7 @@
 		<string>es-cy</string>
 		<string>esdescender-cy</string>
 	</array>
-	<key>public.kern1.comma</key>
+	<key>@MMK_L_comma</key>
 	<array>
 		<string>comma</string>
 		<string>ellipsis</string>
@@ -348,7 +348,7 @@
 		<string>quotesinglbase</string>
 		<string>twodotenleader</string>
 	</array>
-	<key>public.kern1.e</key>
+	<key>@MMK_L_e</key>
 	<array>
 		<string>e</string>
 		<string>eacute</string>
@@ -375,7 +375,7 @@
 		<string>ecircumflextilde</string>
 		<string>ecircumflexdotbelow</string>
 	</array>
-	<key>public.kern1.eta</key>
+	<key>@MMK_L_eta</key>
 	<array>
 		<string>eta</string>
 		<string>etatonos</string>
@@ -391,7 +391,7 @@
 		<string>shha-cy</string>
 		<string>macute</string>
 	</array>
-	<key>public.kern1.gamma</key>
+	<key>@MMK_L_gamma</key>
 	<array>
 		<string>gamma</string>
 		<string>nu</string>
@@ -413,7 +413,7 @@
 		<string>ydieresis</string>
 		<string>ygrave</string>
 	</array>
-	<key>public.kern1.ge-cy</key>
+	<key>@MMK_L_ge-cy</key>
 	<array>
 		<string>ge-cy</string>
 		<string>gje-cy</string>
@@ -421,7 +421,7 @@
 		<string>gedescender-cy</string>
 		<string>gestrokehook-cy</string>
 	</array>
-	<key>public.kern1.hardsign-cy</key>
+	<key>@MMK_L_hardsign-cy</key>
 	<array>
 		<string>hardsign-cy</string>
 		<string>softsign-cy</string>
@@ -429,7 +429,7 @@
 		<string>nje-cy</string>
 		<string>yat-cy</string>
 	</array>
-	<key>public.kern1.minute</key>
+	<key>@MMK_L_minute</key>
 	<array>
 		<string>minute</string>
 		<string>quotedbl</string>
@@ -442,7 +442,7 @@
 		<string>second</string>
 		<string>apostrophemod</string>
 	</array>
-	<key>public.kern1.o</key>
+	<key>@MMK_L_o</key>
 	<array>
 		<string>o</string>
 		<string>oacute</string>
@@ -468,21 +468,21 @@
 		<string>ocircumflexdotbelow</string>
 		<string>ohorntilde</string>
 	</array>
-	<key>public.kern1.r</key>
+	<key>@MMK_L_r</key>
 	<array>
 		<string>r</string>
 		<string>racute</string>
 		<string>rcaron</string>
 		<string>rcommaaccent</string>
 	</array>
-	<key>public.kern1.z</key>
+	<key>@MMK_L_z</key>
 	<array>
 		<string>z</string>
 		<string>zacute</string>
 		<string>zcaron</string>
 		<string>zdotaccent</string>
 	</array>
-	<key>public.kern1.zhe-cy</key>
+	<key>@MMK_L_zhe-cy</key>
 	<array>
 		<string>zhe-cy</string>
 		<string>ha-cy</string>
@@ -493,7 +493,7 @@
 		<string>hahook-cy</string>
 		<string>x</string>
 	</array>
-	<key>public.kern2.A</key>
+	<key>@MMK_R_A</key>
 	<array>
 		<string>A</string>
 		<string>Aacute</string>
@@ -528,7 +528,7 @@
 		<string>Abrevetilde</string>
 		<string>Abrevedotbelow</string>
 	</array>
-	<key>public.kern2.C</key>
+	<key>@MMK_R_C</key>
 	<array>
 		<string>C</string>
 		<string>Cacute</string>
@@ -588,14 +588,14 @@
 		<string>Ohorndotbelow</string>
 		<string>Omicrondasiaoxia</string>
 	</array>
-	<key>public.kern2.Che-cy</key>
+	<key>@MMK_R_Che-cy</key>
 	<array>
 		<string>Che-cy</string>
 		<string>Chedescender-cy</string>
 		<string>Chekhakassian-cy</string>
 		<string>Chedieresis-cy</string>
 	</array>
-	<key>public.kern2.Chi</key>
+	<key>@MMK_R_Chi</key>
 	<array>
 		<string>Chi</string>
 		<string>X</string>
@@ -607,13 +607,13 @@
 		<string>Zhedieresis-cy</string>
 		<string>Hahook-cy</string>
 	</array>
-	<key>public.kern2.J</key>
+	<key>@MMK_R_J</key>
 	<array>
 		<string>J</string>
 		<string>Jcircumflex</string>
 		<string>Je-cy</string>
 	</array>
-	<key>public.kern2.Lje-cy</key>
+	<key>@MMK_R_Lje-cy</key>
 	<array>
 		<string>Lje-cy</string>
 		<string>El-cy</string>
@@ -621,7 +621,7 @@
 		<string>Komilje-cy</string>
 		<string>Elhook-cy</string>
 	</array>
-	<key>public.kern2.S</key>
+	<key>@MMK_R_S</key>
 	<array>
 		<string>S</string>
 		<string>Sacute</string>
@@ -630,7 +630,7 @@
 		<string>Scircumflex</string>
 		<string>Scommaaccent</string>
 	</array>
-	<key>public.kern2.T</key>
+	<key>@MMK_R_T</key>
 	<array>
 		<string>T</string>
 		<string>Tcaron</string>
@@ -643,7 +643,7 @@
 		<string>Tedescender-cy</string>
 		<string>Tetse-cy</string>
 	</array>
-	<key>public.kern2.U</key>
+	<key>@MMK_R_U</key>
 	<array>
 		<string>U</string>
 		<string>Uacute</string>
@@ -659,7 +659,7 @@
 		<string>Udotbelow</string>
 		<string>Uhookabove</string>
 	</array>
-	<key>public.kern2.Upsilon</key>
+	<key>@MMK_R_Upsilon</key>
 	<array>
 		<string>Upsilon</string>
 		<string>Upsilondieresis</string>
@@ -675,7 +675,7 @@
 		<string>Yhookabove</string>
 		<string>Ytilde</string>
 	</array>
-	<key>public.kern2.Ushort-cy</key>
+	<key>@MMK_R_Ushort-cy</key>
 	<array>
 		<string>Ushort-cy</string>
 		<string>U-cy</string>
@@ -683,13 +683,13 @@
 		<string>Udieresis-cy</string>
 		<string>Uhungarumlaut-cy</string>
 	</array>
-	<key>public.kern2.V</key>
+	<key>@MMK_R_V</key>
 	<array>
 		<string>V</string>
 		<string>Izhitsa-cy</string>
 		<string>Izhitsadblgrave-cy</string>
 	</array>
-	<key>public.kern2.W</key>
+	<key>@MMK_R_W</key>
 	<array>
 		<string>W</string>
 		<string>Wacute</string>
@@ -697,7 +697,7 @@
 		<string>Wdieresis</string>
 		<string>Wgrave</string>
 	</array>
-	<key>public.kern2.Z</key>
+	<key>@MMK_R_Z</key>
 	<array>
 		<string>Z</string>
 		<string>Zacute</string>
@@ -705,10 +705,10 @@
 		<string>Zdotaccent</string>
 		<string>Zeta</string>
 	</array>
-	<key>public.kern2._empty_lu.0_st.3_cl.0</key>
+	<key>@MMK_R__empty_lu.0_st.3_cl.0</key>
 	<array>
 	</array>
-	<key>public.kern2.a</key>
+	<key>@MMK_R_a</key>
 	<array>
 		<string>a</string>
 		<string>aacute</string>
@@ -738,7 +738,7 @@
 		<string>abrevetilde</string>
 		<string>abrevedotbelow</string>
 	</array>
-	<key>public.kern2.alpha</key>
+	<key>@MMK_R_alpha</key>
 	<array>
 		<string>alpha</string>
 		<string>alphatonos</string>
@@ -802,14 +802,14 @@
 		<string>ohornhookabove</string>
 		<string>ohorndotbelow</string>
 	</array>
-	<key>public.kern2.che-cy</key>
+	<key>@MMK_R_che-cy</key>
 	<array>
 		<string>che-cy</string>
 		<string>chedescender-cy</string>
 		<string>chekhakassian-cy</string>
 		<string>chedieresis-cy</string>
 	</array>
-	<key>public.kern2.comma</key>
+	<key>@MMK_R_comma</key>
 	<array>
 		<string>comma</string>
 		<string>ellipsis</string>
@@ -818,14 +818,14 @@
 		<string>quotesinglbase</string>
 		<string>twodotenleader</string>
 	</array>
-	<key>public.kern2.el-cy</key>
+	<key>@MMK_R_el-cy</key>
 	<array>
 		<string>el-cy</string>
 		<string>lje-cy</string>
 		<string>eltail-cy</string>
 		<string>elhook-cy</string>
 	</array>
-	<key>public.kern2.emdash</key>
+	<key>@MMK_R_emdash</key>
 	<array>
 		<string>emdash</string>
 		<string>endash</string>
@@ -833,7 +833,7 @@
 		<string>softhyphen</string>
 		<string>horizontalbar</string>
 	</array>
-	<key>public.kern2.eta</key>
+	<key>@MMK_R_eta</key>
 	<array>
 		<string>eta</string>
 		<string>etatonos</string>
@@ -876,7 +876,7 @@
 		<string>gestrokehook-cy</string>
 		<string>macute</string>
 	</array>
-	<key>public.kern2.gamma</key>
+	<key>@MMK_R_gamma</key>
 	<array>
 		<string>gamma</string>
 		<string>nu</string>
@@ -898,13 +898,13 @@
 		<string>ydieresis</string>
 		<string>ygrave</string>
 	</array>
-	<key>public.kern2.h</key>
+	<key>@MMK_R_h</key>
 	<array>
 		<string>h</string>
 		<string>k</string>
 		<string>l</string>
 	</array>
-	<key>public.kern2.minute</key>
+	<key>@MMK_R_minute</key>
 	<array>
 		<string>minute</string>
 		<string>quotedbl</string>
@@ -917,7 +917,7 @@
 		<string>second</string>
 		<string>apostrophemod</string>
 	</array>
-	<key>public.kern2.o</key>
+	<key>@MMK_R_o</key>
 	<array>
 		<string>o</string>
 		<string>oacute</string>
@@ -943,7 +943,7 @@
 		<string>ocircumflexdotbelow</string>
 		<string>ohorntilde</string>
 	</array>
-	<key>public.kern2.s</key>
+	<key>@MMK_R_s</key>
 	<array>
 		<string>s</string>
 		<string>sacute</string>
@@ -953,7 +953,7 @@
 		<string>scommaaccent</string>
 		<string>dze-cy</string>
 	</array>
-	<key>public.kern2.u</key>
+	<key>@MMK_R_u</key>
 	<array>
 		<string>u</string>
 		<string>uacute</string>
@@ -979,14 +979,14 @@
 		<string>uring</string>
 		<string>utilde</string>
 	</array>
-	<key>public.kern2.z</key>
+	<key>@MMK_R_z</key>
 	<array>
 		<string>z</string>
 		<string>zacute</string>
 		<string>zcaron</string>
 		<string>zdotaccent</string>
 	</array>
-	<key>public.kern2.zhe-cy</key>
+	<key>@MMK_R_zhe-cy</key>
 	<array>
 		<string>zhe-cy</string>
 		<string>ha-cy</string>
