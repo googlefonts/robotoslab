@@ -5,8 +5,8 @@
   <outline>
     <contour>
       <point x="1306" y="1456" type="line"/>
-      <point x="1306" y="1102" type="line"/>
-      <point x="1156" y="1102" type="line"/>
+      <point x="1306" y="1111" type="line"/>
+      <point x="1156" y="1111" type="line"/>
       <point x="1126" y="1301" type="line"/>
       <point x="800" y="1301" type="line"/>
       <point x="800" y="154" type="line"/>
@@ -17,8 +17,8 @@
       <point x="603" y="154" type="line"/>
       <point x="603" y="1301" type="line"/>
       <point x="277" y="1301" type="line"/>
-      <point x="248" y="1102" type="line"/>
-      <point x="96" y="1102" type="line"/>
+      <point x="248" y="1111" type="line"/>
+      <point x="96" y="1111" type="line"/>
       <point x="96" y="1456" type="line"/>
     </contour>
   </outline>
