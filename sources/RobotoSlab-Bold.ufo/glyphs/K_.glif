@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="K" format="1">
-  <advance width="1553"/>
+  <advance width="1564"/>
   <unicode hex="004B"/>
   <outline>
     <contour>
@@ -671,7 +671,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1553</integer>
+          <integer>1564</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
