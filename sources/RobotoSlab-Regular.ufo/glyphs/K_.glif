@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="K" format="1">
-  <advance width="1475"/>
+  <advance width="1471"/>
   <unicode hex="004B"/>
   <outline>
     <contour>
@@ -27,8 +27,8 @@
       <point x="1406" y="0" type="line"/>
       <point x="925" y="0" type="line"/>
       <point x="925" y="126" type="line"/>
-      <point x="1039" y="140" type="line"/>
-      <point x="1038" y="141" type="line"/>
+      <point x="1045" y="140" type="line"/>
+      <point x="1044" y="141" type="line"/>
       <point x="604" y="657" type="line"/>
       <point x="431.0" y="657.0" type="line"/>
       <point x="431.0" y="154.0" type="line"/>
@@ -671,7 +671,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1475</integer>
+          <integer>1471</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>

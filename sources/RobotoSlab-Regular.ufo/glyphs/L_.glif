@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="L" format="1">
-  <advance width="1199"/>
+  <advance width="1216"/>
   <unicode hex="004C"/>
   <outline>
     <contour>
@@ -16,9 +16,9 @@
       <point x="594" y="1329" type="line"/>
       <point x="431" y="1301" type="line"/>
       <point x="431" y="154" type="line"/>
-      <point x="937" y="154" type="line"/>
-      <point x="952" y="361" type="line"/>
-      <point x="1120" y="361" type="line"/>
+      <point x="940" y="154" type="line"/>
+      <point x="961" y="381" type="line"/>
+      <point x="1120" y="381" type="line"/>
       <point x="1120" y="0" type="line"/>
     </contour>
   </outline>
@@ -211,7 +211,7 @@
           <array>
           </array>
           <key>width</key>
-          <integer>1199</integer>
+          <integer>1216</integer>
         </dict>
       </dict>
       <key>com.typemytype.robofont.mark</key>
