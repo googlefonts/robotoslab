@@ -492,6 +492,8 @@
 	</dict>
 	<key>@MMK_L_b</key>
 	<dict>
+		<key>@MMK_R_alpha</key>
+		<integer>40</integer>
 		<key>@MMK_R_el-cy</key>
 		<integer>-14</integer>
 		<key>@MMK_R_gamma</key>
@@ -501,7 +503,7 @@
 		<key>@MMK_R_minute</key>
 		<integer>-29</integer>
 		<key>@MMK_R_o</key>
-		<integer>20</integer>
+		<integer>40</integer>
 		<key>@MMK_R_z</key>
 		<integer>-15</integer>
 		<key>@MMK_R_zhe-cy</key>
@@ -509,8 +511,14 @@
 	</dict>
 	<key>@MMK_L_c</key>
 	<dict>
+		<key>@MMK_R_a</key>
+		<integer>20</integer>
+		<key>@MMK_R_alpha</key>
+		<integer>40</integer>
 		<key>@MMK_R_minute</key>
 		<integer>-11</integer>
+		<key>@MMK_R_o</key>
+		<integer>25</integer>
 	</dict>
 	<key>@MMK_L_comma</key>
 	<dict>
@@ -519,10 +527,18 @@
 	</dict>
 	<key>@MMK_L_e</key>
 	<dict>
+		<key>@MMK_R_a</key>
+		<integer>15</integer>
+		<key>@MMK_R_alpha</key>
+		<integer>40</integer>
 		<key>@MMK_R_gamma</key>
 		<integer>-13</integer>
 		<key>@MMK_R_minute</key>
 		<integer>-14</integer>
+		<key>@MMK_R_o</key>
+		<integer>30</integer>
+		<key>@MMK_R_s</key>
+		<integer>5</integer>
 	</dict>
 	<key>@MMK_L_eta</key>
 	<dict>
@@ -551,10 +567,14 @@
 		<integer>-107</integer>
 		<key>@MMK_R_el-cy</key>
 		<integer>-41</integer>
+		<key>@MMK_R_h</key>
+		<integer>-20</integer>
 		<key>@MMK_R_minute</key>
 		<integer>15</integer>
 		<key>@MMK_R_o</key>
 		<integer>-25</integer>
+		<key>t</key>
+		<integer>50</integer>
 	</dict>
 	<key>@MMK_L_ge-cy</key>
 	<dict>
@@ -596,9 +616,9 @@
 	<key>@MMK_L_o</key>
 	<dict>
 		<key>@MMK_R_a</key>
-		<integer>10</integer>
-		<key>@MMK_R_alpha</key>
 		<integer>20</integer>
+		<key>@MMK_R_alpha</key>
+		<integer>40</integer>
 		<key>@MMK_R_el-cy</key>
 		<integer>-16</integer>
 		<key>@MMK_R_gamma</key>
@@ -608,7 +628,7 @@
 		<key>@MMK_R_minute</key>
 		<integer>-20</integer>
 		<key>@MMK_R_o</key>
-		<integer>20</integer>
+		<integer>30</integer>
 		<key>@MMK_R_z</key>
 		<integer>-16</integer>
 		<key>@MMK_R_zhe-cy</key>
@@ -15535,6 +15555,8 @@
 	</dict>
 	<key>w</key>
 	<dict>
+		<key>@MMK_R_h</key>
+		<integer>-20</integer>
 		<key>@MMK_R_o</key>
 		<integer>-20</integer>
 		<key>comma</key>
@@ -15547,6 +15569,8 @@
 		<integer>-124</integer>
 		<key>quotesinglbase</key>
 		<integer>-124</integer>
+		<key>t</key>
+		<integer>20</integer>
 		<key>twodotenleader</key>
 		<integer>-124</integer>
 	</dict>
