@@ -218,10 +218,16 @@
 		<integer>-256</integer>
 		<key>@MMK_R_W</key>
 		<integer>-143</integer>
+		<key>@MMK_R_a</key>
+		<integer>20</integer>
+		<key>@MMK_R_alpha</key>
+		<integer>20</integer>
 		<key>@MMK_R_gamma</key>
 		<integer>-133</integer>
 		<key>@MMK_R_minute</key>
 		<integer>-138</integer>
+		<key>@MMK_R_o</key>
+		<integer>20</integer>
 		<key>@MMK_R_u</key>
 		<integer>-44</integer>
 	</dict>
@@ -525,7 +531,7 @@
 		<key>@MMK_R_gamma</key>
 		<integer>-90</integer>
 		<key>@MMK_R_minute</key>
-		<integer>-16</integer>
+		<integer>-140</integer>
 		<key>@MMK_R_o</key>
 		<integer>-15</integer>
 		<key>@MMK_R_u</key>
@@ -4424,6 +4430,12 @@
 	<dict>
 		<key>@MMK_R_C</key>
 		<integer>25</integer>
+		<key>@MMK_R_a</key>
+		<integer>30</integer>
+		<key>@MMK_R_alpha</key>
+		<integer>30</integer>
+		<key>@MMK_R_o</key>
+		<integer>30</integer>
 	</dict>
 	<key>Gamma</key>
 	<dict>
