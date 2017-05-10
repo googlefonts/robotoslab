@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="P" format="1">
-  <advance width="1311"/>
+  <advance width="1297"/>
   <unicode hex="0050"/>
   <outline>
     <contour>
@@ -35,4 +35,15 @@
       <point x="441" y="1301" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.1703</real>
+        <real>0.1669</real>
+        <real>0.8287</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
