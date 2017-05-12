@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tildecomb" format="1">
+  <advance width="0"/>
   <unicode hex="0303"/>
   <outline>
     <component base=".ttfautohint" xOffset="-131" yOffset="1276"/>

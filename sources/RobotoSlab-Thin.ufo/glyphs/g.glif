@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="g" format="1">
-  <advance width="1140"/>
+  <advance width="1163"/>
   <unicode hex="0067"/>
   <outline>
     <contour>
@@ -51,5 +51,22 @@
       <point x="167.0" y="842.0"/>
       <point x="167" y="542" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="921" y="1028" type="line"/>
+      <point x="914" y="1082" type="line"/>
+      <point x="1084" y="1082" type="line"/>
+      <point x="1084" y="1028" type="line"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.1703</real>
+        <real>0.1669</real>
+        <real>0.8287</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>

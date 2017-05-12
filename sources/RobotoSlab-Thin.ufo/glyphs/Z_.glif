@@ -4,6 +4,8 @@
   <unicode hex="005A"/>
   <outline>
     <contour>
+      <point x="1096" y="1456" type="line"/>
+      <point x="1096" y="1418" type="line"/>
       <point x="166" y="54" type="line"/>
       <point x="1074" y="54" type="line"/>
       <point x="1074" y="293" type="line"/>
@@ -16,8 +18,6 @@
       <point x="186" y="1163" type="line"/>
       <point x="132" y="1163" type="line"/>
       <point x="132" y="1456" type="line"/>
-      <point x="1096" y="1456" type="line"/>
-      <point x="1096" y="1418" type="line"/>
     </contour>
   </outline>
 </glyph>
