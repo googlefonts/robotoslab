@@ -2,7 +2,6 @@
 <glyph name="Imacron.smcp" format="1">
   <advance width="610"/>
   <outline>
-    <component base=".ttfautohint"/>
     <component base="I.smcp"/>
     <component base="firsttonechinese" xOffset="-200" yOffset="12"/>
   </outline>

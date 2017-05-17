@@ -3,7 +3,6 @@
   <advance width="1448"/>
   <unicode hex="1F4D"/>
   <outline>
-    <component base=".ttfautohint"/>
     <component base="O"/>
     <component base="dasiaoxia" xOffset="-298" yOffset="216"/>
   </outline>

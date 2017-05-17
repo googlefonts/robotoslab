@@ -2,7 +2,6 @@
 <glyph name="Idotaccent.smcp" format="1">
   <advance width="610"/>
   <outline>
-    <component base=".ttfautohint" xOffset="61"/>
     <component base="I.smcp"/>
     <component base="dotaccent" xOffset="52" yOffset="11"/>
   </outline>

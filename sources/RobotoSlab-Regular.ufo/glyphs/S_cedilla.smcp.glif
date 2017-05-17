@@ -2,7 +2,6 @@
 <glyph name="Scedilla.smcp" format="1">
   <advance width="1137"/>
   <outline>
-    <component base=".ttfautohint" xOffset="92"/>
     <component base="S.smcp"/>
     <component base="cedilla" xOffset="341" yOffset="-6"/>
   </outline>

@@ -2,7 +2,6 @@
 <glyph name="Dcaron.smcp" format="1">
   <advance width="1250"/>
   <outline>
-    <component base=".ttfautohint" xOffset="88"/>
     <component base="D.smcp"/>
     <component base="caron" xOffset="135" yOffset="1"/>
   </outline>

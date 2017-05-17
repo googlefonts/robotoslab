@@ -2,7 +2,6 @@
 <glyph name="Aringacute.smcp" format="1">
   <advance width="1326"/>
   <outline>
-    <component base=".ttfautohint" xOffset="45"/>
     <component base="A.smcp"/>
     <component base="ringacute" xOffset="343" yOffset="-26"/>
   </outline>

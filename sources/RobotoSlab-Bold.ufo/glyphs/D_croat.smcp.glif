@@ -2,7 +2,6 @@
 <glyph name="Dcroat.smcp" format="1">
   <advance width="1265"/>
   <outline>
-    <component base=".ttfautohint"/>
     <component base="D.smcp"/>
     <component base="crossbar" xOffset="-137" yOffset="-151"/>
   </outline>

@@ -3,7 +3,6 @@
   <advance width="1448"/>
   <unicode hex="1ED0"/>
   <outline>
-    <component base=".ttfautohint" xOffset="67"/>
     <component base="O"/>
     <component base="circumflexacutecomb" xOffset="279" yOffset="293"/>
   </outline>

@@ -2,7 +2,6 @@
 <glyph name="Ntilde.smcp" format="1">
   <advance width="1465"/>
   <outline>
-    <component base=".ttfautohint" xOffset="67"/>
     <component base="N.smcp"/>
     <component base="tilde" xOffset="206" yOffset="31"/>
   </outline>

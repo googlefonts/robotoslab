@@ -2,7 +2,6 @@
 <glyph name="Ebreve.smcp" format="1">
   <advance width="1169"/>
   <outline>
-    <component base=".ttfautohint" xOffset="88"/>
     <component base="E.smcp"/>
     <component base="breve" xOffset="140" yOffset="25"/>
   </outline>

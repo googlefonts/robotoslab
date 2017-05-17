@@ -3,7 +3,6 @@
   <advance width="1485"/>
   <unicode hex="00C4"/>
   <outline>
-    <component base=".ttfautohint" xOffset="55"/>
     <component base="A"/>
     <component base="dieresis" xOffset="254" yOffset="340"/>
   </outline>

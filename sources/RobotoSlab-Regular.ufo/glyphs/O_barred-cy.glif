@@ -3,7 +3,6 @@
   <advance width="1403"/>
   <unicode hex="04E8"/>
   <outline>
-    <component base=".ttfautohint" xOffset="79"/>
     <component base="Fita-cy"/>
   </outline>
 </glyph>

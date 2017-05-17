@@ -2,7 +2,6 @@
 <glyph name="Ohungarumlaut.smcp" format="1">
   <advance width="1211"/>
   <outline>
-    <component base=".ttfautohint" xOffset="118"/>
     <component base="O.smcp"/>
     <component base="hungarumlaut" xOffset="241" yOffset="42"/>
   </outline>

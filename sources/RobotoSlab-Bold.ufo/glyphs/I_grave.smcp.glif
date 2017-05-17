@@ -2,7 +2,6 @@
 <glyph name="Igrave.smcp" format="1">
   <advance width="718"/>
   <outline>
-    <component base=".ttfautohint" xOffset="14"/>
     <component base="I.smcp"/>
     <component base="grave" xOffset="-50" yOffset="35"/>
   </outline>
