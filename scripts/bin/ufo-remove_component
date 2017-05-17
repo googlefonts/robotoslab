@@ -1,0 +1,46 @@
+#! /usr/bin/env python
+from __future__ import print_function
+import defcon
+import sys
+import fire
+
+
+def update_components(font, remove_names):
+    components = []
+    for glyph in font:
+        for component in glyph.components:
+            if component.baseGlyph in remove_names:
+                print ('removed', component.baseGlyph, 'from', glyph.name)
+                glyph.removeComponent(component)
+
+def main(sourceUfoPath, targetUfoPath=None, removeNames='', ufoFormatVersion=None):
+    """ Rename glyph names to GlyphsInfo friendly names
+
+    SOURCEUFOPATH: OpenType font file.
+    TARGETUFOPATH: directory name of the UFO or \| to write a pickled defcon object to stdout.
+    REMOVENAMES: comma separated list of component glyph-names to remove
+    UFOFORMATVERSION: if the font UFO is written to disk, save with this version (default: 3)
+
+
+    use: $ ufo-remove_component RobotoSlab-Bold.ufo/ --removeNames ".ttfautohint"
+    """
+    if sourceUfoPath == '|':
+        # read pickle serialization from stdin
+        font = defcon.Font()
+        font.deserialize(sys.stdin.read())
+    else:
+        font = defcon.Font(path=sourceUfoPath)
+
+    removeNames = [n.strip() for n in removeNames.split()]
+
+    update_components(font, removeNames)
+
+    if targetUfoPath == '|' or sourceUfoPath == '|' and  targetUfoPath is None:
+        # write pickle serialization to stdout
+        sys.stdout.write(font.serialize())
+    else:
+        font.save(targetUfoPath, formatVersion=ufoFormatVersion)
+
+
+if __name__ == '__main__':
+    fire.Fire(main)
