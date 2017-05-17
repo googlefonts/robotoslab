@@ -3,7 +3,6 @@
   <advance width="1220"/>
   <unicode hex="0160"/>
   <outline>
-    <component base=".ttfautohint" xOffset="109"/>
     <component base="S"/>
     <component base="caron" xOffset="252" yOffset="337"/>
   </outline>

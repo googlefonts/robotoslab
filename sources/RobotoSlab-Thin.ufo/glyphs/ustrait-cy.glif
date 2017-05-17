@@ -3,7 +3,6 @@
   <advance width="1084"/>
   <unicode hex="04AF"/>
   <outline>
-    <component base=".ttfautohint"/>
     <component base="gamma"/>
   </outline>
 </glyph>

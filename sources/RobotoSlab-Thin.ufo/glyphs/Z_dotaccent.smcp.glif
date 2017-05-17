@@ -2,7 +2,6 @@
 <glyph name="Zdotaccent.smcp" format="1">
   <advance width="1115"/>
   <outline>
-    <component base=".ttfautohint" xOffset="95"/>
     <component base="Z.smcp"/>
     <component base="dotaccent" xOffset="317" yOffset="-2"/>
   </outline>

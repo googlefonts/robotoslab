@@ -3,7 +3,6 @@
   <advance width="782"/>
   <unicode hex="2033"/>
   <outline>
-    <component base=".ttfautohint" xOffset="140" yOffset="1039"/>
     <component base="quotedbl"/>
   </outline>
 </glyph>

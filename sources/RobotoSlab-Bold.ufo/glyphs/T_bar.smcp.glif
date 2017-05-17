@@ -2,7 +2,6 @@
 <glyph name="Tbar.smcp" format="1">
   <advance width="1248"/>
   <outline>
-    <component base=".ttfautohint" xOffset="49"/>
     <component base="T.smcp"/>
     <component base="crossbar" xOffset="128" yOffset="-98"/>
   </outline>

@@ -2,7 +2,6 @@
 <glyph name="germandbls.smcp" format="1">
   <advance width="2198"/>
   <outline>
-    <component base=".ttfautohint" xOffset="90"/>
     <component base="S.smcp"/>
     <component base="S.smcp" xOffset="1099"/>
   </outline>

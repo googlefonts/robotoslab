@@ -3,7 +3,6 @@
   <advance width="1431"/>
   <unicode hex="04F2"/>
   <outline>
-    <component base=".ttfautohint" xOffset="33"/>
     <component base="U-cy"/>
     <component base="hungarumlaut" xOffset="403" yOffset="349"/>
   </outline>

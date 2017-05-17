@@ -3,7 +3,6 @@
   <advance width="1286"/>
   <unicode hex="0116"/>
   <outline>
-    <component base=".ttfautohint" xOffset="71"/>
     <component base="E"/>
     <component base="dotaccent" xOffset="403" yOffset="334"/>
   </outline>

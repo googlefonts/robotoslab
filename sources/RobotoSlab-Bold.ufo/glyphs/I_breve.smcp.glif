@@ -2,7 +2,6 @@
 <glyph name="Ibreve.smcp" format="1">
   <advance width="718"/>
   <outline>
-    <component base=".ttfautohint" xOffset="15"/>
     <component base="I.smcp"/>
     <component base="breve" xOffset="-85" yOffset="106"/>
   </outline>

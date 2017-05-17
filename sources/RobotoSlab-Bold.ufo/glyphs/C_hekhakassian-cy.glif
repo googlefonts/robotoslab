@@ -3,7 +3,6 @@
   <advance width="1553"/>
   <unicode hex="04CB"/>
   <outline>
-    <component base=".ttfautohint" xOffset="44"/>
     <component base="Che-cy"/>
     <component base="cyrillictic" xOffset="770"/>
   </outline>

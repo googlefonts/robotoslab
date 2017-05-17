@@ -2,7 +2,6 @@
 <glyph name="Jcircumflex.smcp" format="1">
   <advance width="1072"/>
   <outline>
-    <component base=".ttfautohint" xOffset="58"/>
     <component base="J.smcp"/>
     <component base="circumflex" xOffset="408" yOffset="3"/>
   </outline>

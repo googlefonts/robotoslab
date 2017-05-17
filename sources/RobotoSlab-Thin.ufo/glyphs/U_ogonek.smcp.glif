@@ -2,7 +2,6 @@
 <glyph name="Uogonek.smcp" format="1">
   <advance width="1432"/>
   <outline>
-    <component base=".ttfautohint" xOffset="65"/>
     <component base="U.smcp"/>
     <component base="ogonek" xOffset="476"/>
   </outline>

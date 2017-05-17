@@ -2,7 +2,6 @@
 <glyph name="Tcommaaccent.smcp" format="1">
   <advance width="1150"/>
   <outline>
-    <component base=".ttfautohint" xOffset="62"/>
     <component base="T.smcp"/>
     <component base="commaaccent" xOffset="347" yOffset="-308"/>
   </outline>

@@ -3,7 +3,6 @@
   <advance width="936"/>
   <unicode hex="2025"/>
   <outline>
-    <component base=".ttfautohint" xOffset="146"/>
     <component base="period" xOffset="1"/>
     <component base="period" xOffset="443"/>
   </outline>

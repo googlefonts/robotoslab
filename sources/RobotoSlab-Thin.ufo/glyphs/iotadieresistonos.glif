@@ -3,7 +3,6 @@
   <advance width="594"/>
   <unicode hex="0390"/>
   <outline>
-    <component base=".ttfautohint"/>
     <component base="iota"/>
     <component base="dieresistonos" xOffset="-218" yOffset="-69"/>
   </outline>

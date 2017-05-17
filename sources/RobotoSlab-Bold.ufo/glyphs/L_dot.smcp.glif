@@ -2,7 +2,6 @@
 <glyph name="Ldot.smcp" format="1">
   <advance width="1098"/>
   <outline>
-    <component base=".ttfautohint" xOffset="67"/>
     <component base="L.smcp"/>
     <component base="dotaccent" xOffset="517" yOffset="-706"/>
   </outline>

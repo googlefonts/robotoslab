@@ -3,7 +3,6 @@
   <advance width="1836"/>
   <unicode hex="215D"/>
   <outline>
-    <component base=".ttfautohint" xOffset="64"/>
     <component base="five.sup" xOffset="-36" yOffset="654"/>
     <component base="fraction" xOffset="469"/>
     <component base="eight.sup" xOffset="1009"/>

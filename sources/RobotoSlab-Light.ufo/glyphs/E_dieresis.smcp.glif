@@ -2,7 +2,6 @@
 <glyph name="Edieresis.smcp" format="1">
   <advance width="1154"/>
   <outline>
-    <component base=".ttfautohint" xOffset="61"/>
     <component base="E.smcp"/>
     <component base="dieresis" xOffset="80" yOffset="19"/>
   </outline>

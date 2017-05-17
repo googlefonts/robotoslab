@@ -2,7 +2,6 @@
 <glyph name="Omacron.smcp" format="1">
   <advance width="1227"/>
   <outline>
-    <component base=".ttfautohint" xOffset="92"/>
     <component base="O.smcp"/>
     <component base="firsttonechinese" xOffset="89" yOffset="15"/>
   </outline>

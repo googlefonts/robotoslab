@@ -2,7 +2,6 @@
 <glyph name="Lacute.smcp" format="1">
   <advance width="1026"/>
   <outline>
-    <component base=".ttfautohint" xOffset="61"/>
     <component base="L.smcp"/>
     <component base="acute" xOffset="97" yOffset="-7"/>
   </outline>

@@ -2,7 +2,6 @@
 <glyph name="cyrillicbreve" format="1">
   <advance width="873"/>
   <outline>
-    <component base=".ttfautohint" xOffset="100" yOffset="1162"/>
     <component base="breve"/>
   </outline>
 </glyph>

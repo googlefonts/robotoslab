@@ -2,7 +2,6 @@
 <glyph name="Ecaron.smcp" format="1">
   <advance width="1137"/>
   <outline>
-    <component base=".ttfautohint" xOffset="31"/>
     <component base="E.smcp"/>
     <component base="caron" xOffset="181" yOffset="7"/>
   </outline>

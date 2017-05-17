@@ -2,7 +2,6 @@
 <glyph name="Cacute.smcp" format="1">
   <advance width="1130"/>
   <outline>
-    <component base=".ttfautohint" xOffset="118"/>
     <component base="C.smcp"/>
     <component base="acute" xOffset="402" yOffset="28"/>
   </outline>
