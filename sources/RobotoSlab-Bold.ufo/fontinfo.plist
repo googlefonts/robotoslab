@@ -7,7 +7,7 @@
 	<key>capHeight</key>
 	<integer>1456</integer>
 	<key>copyright</key>
-	<string>Font data copyright Google 2013</string>
+	<string>Copyright 2013 Google Inc. All Rights Reserved.</string>
 	<key>descender</key>
 	<integer>-555</integer>
 	<key>familyName</key>
@@ -55,7 +55,7 @@
 	<key>openTypeNameUniqueID</key>
 	<string>Google:Roboto Slab:2013</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.100263; 2013; ttfautohint (v0.94.20-1c74) -l 8 -r 12 -G 200 -x 14 -w "" -W</string>
+	<string>Version 2.000</string>
 	<key>openTypeOS2Panose</key>
 	<array>
 		<integer>0</integer>
@@ -126,7 +126,7 @@
 		<integer>69</integer>
 	</array>
 	<key>openTypeOS2VendorID</key>
-	<string>pyrs</string>
+	<string>GOOG</string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>700</integer>
 	<key>openTypeOS2WidthClass</key>
@@ -170,7 +170,7 @@
 	<key>unitsPerEm</key>
 	<integer>2048</integer>
 	<key>versionMajor</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>versionMinor</key>
 	<integer>0</integer>
 	<key>xHeight</key>
