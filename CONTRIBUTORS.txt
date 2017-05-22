@@ -10,4 +10,5 @@
 # Name <email address>
 
 Christian Robertson <missing@email.fixme>
-Lasse Fister <commander@graphicore.de>
+Erin McLaughlin <hello@erinmclaughlin.com>
+Lassi Fister <commander@graphicore.de>
