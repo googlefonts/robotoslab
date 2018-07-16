@@ -1,7 +1,7 @@
 {
 .appVersion = "1141";
 DisplayStrings = (
-"Roboto Slab VF\012ABCDEFGHIJKLMNOPQRSTUVWXYZ\012/A.smcp/B.smcp/C.smcp/D.smcp/E.smcp/F.smcp/G.smcp/H.smcp/I.smcp/J.smcp/K.smcp/L.smcp/M.smcp/N.smcp/O.smcp/P.smcp/Q.smcp/R.smcp/S.smcp/T.smcp/U.smcp/V.smcp/W.smcp/X.smcp/Y.smcp/Z.smcp \012abcdefghijklmnopqrstuvwxyz & 0123456789\012\012WXYåë"
+"Roboto Slab Black\012ABCDEFGHIJKLMNOPQRSTUVWXYZ\012abcdefghijklmnopqrstuvwxyz\012\012\012"
 );
 classes = (
 {
@@ -1238,7 +1238,7 @@ date = "2008-09-12 16:29:34 +0000";
 designer = Google;
 designerURL = "Christian Robertson";
 disablesNiceNames = 1;
-familyName = "Roboto Slab";
+familyName = "Roboto Slab Beta";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012";
@@ -13863,7 +13863,7 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = W;
-lastChange = "2018-07-15 19:02:34 +0000";
+lastChange = "2018-07-16 15:44:27 +0000";
 layers = (
 {
 layerId = "0331963E-C1C8-4E93-A463-84B984C1D75E";
@@ -143908,7 +143908,6 @@ unicode = 0021;
 );
 instances = (
 {
-exports = 0;
 customParameters = (
 {
 name = weightClass;
@@ -143936,7 +143935,6 @@ name = Light;
 weightClass = Light;
 },
 {
-exports = 0;
 interpolationWeight = 197;
 instanceInterpolations = {
 "B06AEEA2-953E-4FA5-BFB1-0445B6E4B274" = 1;
@@ -143944,7 +143942,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-exports = 0;
 interpolationWeight = 252;
 instanceInterpolations = {
 "B06AEEA2-953E-4FA5-BFB1-0445B6E4B274" = 0.42105;
@@ -143954,7 +143951,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-exports = 0;
 interpolationWeight = 292;
 instanceInterpolations = {
 "ED9AC664-5073-455E-9B15-F6014C59BAEB" = 1;
@@ -143965,7 +143961,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 interpolationWeight = 351;
 instanceInterpolations = {
 "55372407-EEEC-4390-8B77-FB5958F23D2B" = 1;
