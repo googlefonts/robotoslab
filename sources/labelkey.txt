@@ -1,0 +1,12 @@
+red=Interpolation Fixed
+orange=Intpln Fix + Modified
+brown=
+yellow=Modified Design
+lightGreen=
+darkGreen=
+lightBlue=
+darkBlue=
+purple=
+magenta=
+lightGray=
+charcoal=
