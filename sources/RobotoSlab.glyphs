@@ -1,8 +1,7 @@
 {
 .appVersion = "1141";
 DisplayStrings = (
-"Roboto Slab\012ABCDEFGHIJKLMNOPQRSTUVWXYZ\012/a.sc/b.sc/c.sc/d.sc/e.sc/f.sc/g.sc/h.sc/i.sc/j.sc/k.sc/l.sc/m.sc/n.sc/o.sc/p.sc/q.sc/r.sc/s.sc/t.sc/u.sc/v.sc/w.sc/x.sc/y.sc/z.sc \012abcdefghijklmnopqrstuvwxyz\0121234567890 &\012\012////A/backslash/backslash  /numero t01 () {} []",
-"/ia-cy"
+"Roboto Slab Questionably\012ABCDEFGHIJKLMNOPQRSTUVWXYZ\012/a.sc/b.sc/c.sc/d.sc/e.sc/f.sc/g.sc/h.sc/i.sc/j.sc/k.sc/l.sc/m.sc/n.sc/o.sc/p.sc/q.sc/r.sc/s.sc/t.sc/u.sc/v.sc/w.sc/x.sc/y.sc/z.sc \012abcdefghijklmnopqrstuvwxyz\0121234567890 &\012\012////A/backslash/backslash  /numero t01 () {} []"
 );
 classes = (
 {
@@ -85,7 +84,6 @@ value = "B06AEEA2-953E-4FA5-BFB1-0445B6E4B274";
 date = "2018-08-01 19:41:13 +0000";
 designer = Google;
 designerURL = "Christian Robertson";
-disablesNiceNames = 1;
 familyName = "Roboto Slab";
 featurePrefixes = (
 {
@@ -39026,7 +39024,7 @@ unicode = 0078;
 },
 {
 glyphname = y;
-lastChange = "2018-08-01 23:00:04 +0000";
+lastChange = "2018-08-06 14:26:28 +0000";
 layers = (
 {
 anchors = (
@@ -39134,11 +39132,11 @@ width = 1192;
 anchors = (
 {
 name = bottom;
-position = "{1076, 0}";
+position = "{1069, 0}";
 },
 {
 name = top;
-position = "{685, 1082}";
+position = "{678, 1082}";
 }
 );
 layerId = "55372407-EEEC-4390-8B77-FB5958F23D2B";
@@ -39146,40 +39144,40 @@ paths = (
 {
 closed = 1;
 nodes = (
-"633 -437 OFFCURVE",
-"743 -304 OFFCURVE",
-"801 -158 CURVE SMOOTH",
-"1206 858 LINE",
-"1334 876 LINE",
-"1334 1082 LINE",
-"743 1082 LINE",
-"743 876 LINE",
-"867 859 LINE",
-"696 410 LINE",
-"690 410 LINE",
-"688 418 LINE",
-"543 856 LINE",
-"677 876 LINE",
-"677 1082 LINE",
-"27 1082 LINE",
-"27 876 LINE",
-"172 855 LINE",
-"520 -33 LINE",
-"510 -71 LINE SMOOTH",
-"493 -137 OFFCURVE",
-"419 -167 OFFCURVE",
-"334 -167 CURVE SMOOTH",
-"307 -167 OFFCURVE",
-"283 -164 OFFCURVE",
-"257 -157 CURVE",
-"215 -408 LINE",
-"280 -427 OFFCURVE",
-"342 -437 OFFCURVE",
-"403 -437 CURVE SMOOTH"
+"626 -437 OFFCURVE",
+"736 -304 OFFCURVE",
+"794 -158 CURVE SMOOTH",
+"1199 858 LINE",
+"1327 876 LINE",
+"1327 1082 LINE",
+"736 1082 LINE",
+"736 876 LINE",
+"860 859 LINE",
+"689 410 LINE",
+"683 410 LINE",
+"681 418 LINE",
+"536 856 LINE",
+"670 876 LINE",
+"670 1082 LINE",
+"20 1082 LINE",
+"20 876 LINE",
+"165 855 LINE",
+"513 -33 LINE",
+"503 -71 LINE SMOOTH",
+"486 -137 OFFCURVE",
+"412 -167 OFFCURVE",
+"327 -167 CURVE SMOOTH",
+"300 -167 OFFCURVE",
+"276 -164 OFFCURVE",
+"250 -157 CURVE",
+"208 -408 LINE",
+"273 -427 OFFCURVE",
+"335 -437 OFFCURVE",
+"396 -437 CURVE SMOOTH"
 );
 }
 );
-width = 1369;
+width = 1343;
 }
 );
 leftKerningGroup = gamma;
@@ -77898,7 +77896,7 @@ unicode = 0442;
 },
 {
 glyphname = "u-cy";
-lastChange = "2018-07-30 20:03:36 +0000";
+lastChange = "2018-08-06 19:13:56 +0000";
 layers = (
 {
 components = (
@@ -77925,7 +77923,7 @@ name = y;
 }
 );
 layerId = "55372407-EEEC-4390-8B77-FB5958F23D2B";
-width = 1369;
+width = 1343;
 }
 );
 leftKerningGroup = gamma;
