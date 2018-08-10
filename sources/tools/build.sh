@@ -1,6 +1,11 @@
-fontmake -o variable -g RobotoSlab.glyphs
+cp RobotoSlab.glyphs RobotoSlabBuild.glyphs
+
+python tools/fix-glyph-names.py RobotoSlabBuild.glyphs
+
+fontmake -o variable -g RobotoSlabBuild.glyphs
 
 rm -rf master_ufo
+rm -rf RobotoSlabBuild.glyphs
 
 cd variable_ttf
 
@@ -17,7 +22,8 @@ cd ..
 
 cat variable_ttf/RobotoSlab-VF.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/fvar>,$(cat tools/patch.xml | tr '\n' '\r')," | tr '\r' '\n' > RobotoSlab-VF.ttx
 
+rm -rf variable_ttf
+
 ttx RobotoSlab-VF.ttx
 
 rm -rf RobotoSlab-VF.ttx
-rm -rf variable_ttf
