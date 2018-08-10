@@ -171,20 +171,13 @@
 <summary>:broken_heart: <b>ERROR:</b> Checking with Microsoft Font Validator.</summary>
 
 * [com.google.fonts/check/037](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/037)
-* :broken_heart: **ERROR** Failed with FileNotFoundError: [Errno 2] No such file or directory: 'RobotoSlabBeta-VF.ttf.report.xml'
+* :broken_heart: **ERROR** Failed with FileNotFoundError: [Errno 2] No such file or directory: 'RobotoSlabBeta-VF.ttf.xml'
 * :information_source: **INFO** Microsoft Font Validator returned an error code. Output follows :
 
 Unknown command line option: '-file'
 
 
 
-
-</details>
-<details>
-<summary>:fire: <b>FAIL:</b> Glyph names are all valid?</summary>
-
-* [com.google.fonts/check/058](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/058)
-* :fire: **FAIL** The following glyph names do not comply with naming conventions: ['brevecomb-cy', 'hook-cy', 'descender-cy', 'tail-cy'] A glyph name may be up to 31 characters in length, must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). and must not start with a digit or period. There are a few exceptions such as the special character ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not.
 
 </details>
 <details>
@@ -273,13 +266,6 @@ Glyph name: uni1EEE	Counters detected: 3	Expected: 2
 Glyph name: uni1EEF	Counters detected: 3	Expected: 2
 Glyph name: uni1EF0	Counters detected: 3	Expected: 2
 Glyph name: uni1EF1	Counters detected: 3	Expected: 2
-
-</details>
-<details>
-<summary>:warning: <b>WARN:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
-
-* [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/034)
-* :warning: **WARN** OS/2 xAvgCharWidth is 1230 but should be 1232 which corresponds to the weighted average of the widths of the latin lowercase glyphs in the font. These are similar values, which may be a symptom of the slightly different calculation of the xAvgCharWidth value in font editors. There's further discussion on this at https://github.com/googlefonts/fontbakery/issues/1622
 
 </details>
 <details>
@@ -661,7 +647,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [GPOS, gasp, GSUB, loca, DSIG, prep]
+* :information_source: **INFO** This font contains the following optional tables [gasp, loca, GPOS, prep, DSIG, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
@@ -848,6 +834,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 </details>
 <details>
+<summary>:bread: <b>PASS:</b> Glyph names are all valid?</summary>
+
+* [com.google.fonts/check/058](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/058)
+* :bread: **PASS** Glyph names are all valid.
+
+</details>
+<details>
 <summary>:bread: <b>PASS:</b> Font contains unique glyph names?</summary>
 
 * [com.google.fonts/check/059](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/059)
@@ -887,6 +880,13 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 * [com.google.fonts/check/044](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/044)
 * :bread: **PASS** All font version fields match.
+
+</details>
+<details>
+<summary>:bread: <b>PASS:</b> Check if OS/2 xAvgCharWidth is correct.</summary>
+
+* [com.google.fonts/check/034](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/034)
+* :bread: **PASS** OS/2 xAvgCharWidth value is correct.
 
 </details>
 <details>
@@ -1022,5 +1022,5 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 
 | :broken_heart: ERROR | :fire: FAIL | :warning: WARN | :zzz: SKIP | :information_source: INFO | :bread: PASS |
 |:-----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 2 | 7 | 63 | 4 | 56 |
-| 1% | 2% | 5% | 47% | 3% | 42% |
+| 1 | 1 | 6 | 63 | 4 | 58 |
+| 1% | 1% | 5% | 47% | 3% | 44% |
