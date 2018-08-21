@@ -1,7 +1,7 @@
 {
 .appVersion = "1141";
 DisplayStrings = (
-"Roboto Slab Questionably\012ABCDEFGHIJKLMNOPQRSTUVWXYZ\012/a.sc/b.sc/c.sc/d.sc/e.sc/f.sc/g.sc/h.sc/i.sc/j.sc/k.sc/l.sc/m.sc/n.sc/o.sc/p.sc/q.sc/r.sc/s.sc/t.sc/u.sc/v.sc/w.sc/x.sc/y.sc/z.sc \012abcdefghijklmnopqrstuvwxyz\0121234567890 &\012\012////A/backslash/backslash  /numero t01 () {} []"
+"Roboto Slab\012ABCDEFGHIJKLMNOPQRSTUVWXYZ\012/a.sc/b.sc/c.sc/d.sc/e.sc/f.sc/g.sc/h.sc/i.sc/j.sc/k.sc/l.sc/m.sc/n.sc/o.sc/p.sc/q.sc/r.sc/s.sc/t.sc/u.sc/v.sc/w.sc/x.sc/y.sc/z.sc \012abcdefghijklmnopqrstuvwxyz\0121234567890 &"
 );
 classes = (
 {
@@ -24110,7 +24110,7 @@ unicode = 01FD;
 },
 {
 glyphname = b;
-lastChange = "2018-07-30 13:27:18 +0000";
+lastChange = "2018-08-20 16:55:08 +0000";
 layers = (
 {
 anchors = (
@@ -118982,7 +118982,7 @@ com.typemytype.robofont.mark = (
 {
 color = 0;
 glyphname = ampersand;
-lastChange = "2018-07-30 20:18:05 +0000";
+lastChange = "2018-08-20 16:55:15 +0000";
 layers = (
 {
 layerId = "0331963E-C1C8-4E93-A463-84B984C1D75E";
