@@ -460,7 +460,7 @@ xHeight = 1082;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2018-07-30 17:10:59 +0000";
+lastChange = "2018-08-31 13:58:04 +0000";
 layers = (
 {
 anchors = (
@@ -15262,7 +15262,7 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = W;
-lastChange = "2018-07-27 21:54:15 +0000";
+lastChange = "2018-08-31 13:58:18 +0000";
 layers = (
 {
 anchors = (
@@ -126084,7 +126084,7 @@ unicode = 0335;
 },
 {
 glyphname = strokelongcomb;
-lastChange = "2018-08-01 20:25:59 +0000";
+lastChange = "2018-08-31 13:50:16 +0000";
 layers = (
 {
 anchors = (
@@ -126119,10 +126119,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"40 1100 LINE",
-"40 955 LINE",
 "1432 955 LINE",
-"1432 1100 LINE"
+"1432 1100 LINE",
+"40 1100 LINE",
+"40 955 LINE"
 );
 }
 );
@@ -137439,7 +137439,7 @@ r = -30;
 r.sc = -39;
 };
 "@MMK_L_W" = {
-"@MMK_R_A" = -210;
+"@MMK_R_A" = -217;
 "@MMK_R_C" = -55;
 "@MMK_R_Chi" = -40;
 "@MMK_R_H.smcp" = -53;
@@ -138209,7 +138209,7 @@ r.sc = -16;
 "@MMK_R_U" = -60;
 "@MMK_R_Upsilon" = -256;
 "@MMK_R_V" = -154;
-"@MMK_R_W" = -106;
+"@MMK_R_W" = -114;
 "@MMK_R_che-cy" = 17;
 "@MMK_R_el-cy" = -31;
 "@MMK_R_eta" = -33;
@@ -138809,7 +138809,7 @@ r = -30;
 r.sc = 24;
 };
 "@MMK_L_W" = {
-"@MMK_R_A" = -147;
+"@MMK_R_A" = -144;
 "@MMK_R_C" = 34;
 "@MMK_R_Chi" = 25;
 "@MMK_R_H.smcp" = 33;
