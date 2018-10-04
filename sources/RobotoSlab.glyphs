@@ -240,15 +240,6 @@ value = -150;
 {
 name = smallCapHeight;
 value = 1165;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-}
-);
 }
 );
 descender = -555;
@@ -330,15 +321,6 @@ value = -150;
 {
 name = smallCapHeight;
 value = 1165;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
 }
 );
 descender = -555;
@@ -421,15 +403,6 @@ value = -150;
 {
 name = smallCapHeight;
 value = 1165;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 900;
-}
-);
 }
 );
 descender = -555;
