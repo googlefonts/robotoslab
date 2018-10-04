@@ -1,4 +1,4 @@
-fonttools varLib.mutator RobotoSlabBeta-VF.ttf wght=100
+fonttools varLib.mutator RobotoSlabBeta-VF.ttf wght=250
 mv RobotoSlabBeta-VF-instance.ttf RobotoSlabAlpha-Thin.ttf
 mv RobotoSlabAlpha-Thin.ttf ../static
 
