@@ -2,11 +2,7 @@
 
 mkdir statics
 
-cp RobotoSlab.glyphs RobotoSlabBuild.glyphs
-
-python tools/fix-glyph-names.py RobotoSlabBuild.glyphs
-
-fontmake -o ttf -g RobotoSlabBuild.glyphs -i
+fontmake -o ttf -g RobotoSlab.glyphs -i
 
 rm -rf master_ufo
 rm -rf instance_ufo
@@ -17,5 +13,4 @@ for path in instance_ttf/*.ttf; do
 done
 
 rm -rf instance_ttf
-rm -rf RobotoSlabBuild.glyphs
 
