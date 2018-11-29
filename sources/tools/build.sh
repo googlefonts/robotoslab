@@ -1,29 +1,18 @@
-cp RobotoSlab.glyphs RobotoSlabBuild.glyphs
+# flag technique from Jon Almeida: https://jonalmeida.com/posts/2013/05/26/different-ways-to-implement-flags-in-bash/
 
-python tools/fix-glyph-names.py RobotoSlabBuild.glyphs
-
-fontmake -o variable -g RobotoSlabBuild.glyphs
-
-rm -rf master_ufo
-rm -rf RobotoSlabBuild.glyphs
-
-cd variable_ttf
-
-gftools fix-nonhinting RobotoSlab-VF.ttf RobotoSlab-VF.ttf
-gftools fix-dsig --autofix RobotoSlab-VF.ttf
-gftools fix-gasp RobotoSlab-VF.ttf
-
-ttx RobotoSlab-VF.ttf
-
-rm -rf RobotoSlab-VF.ttf
-rm -rf RobotoSlab-VF-backup-fonttools-prep-gasp.ttf
-
-cd ..
-
-cat variable_ttf/RobotoSlab-VF.ttx | tr '\n' '\r' | sed -e "s,<STAT>.*<\/STAT>,$(cat tools/patch.xml | tr '\n' '\r')," | tr '\r' '\n' > RobotoSlab-VF.ttx
-
-rm -rf variable_ttf
-
-ttx RobotoSlab-VF.ttx
-
-rm -rf RobotoSlab-VF.ttx
+while [ ! $# -eq 0 ]
+do
+	case "$1" in
+		--static | -s)
+			source $(dirname ${BASH_SOURCE[0]})/build-static/build-static.sh
+			;;
+		--final | -f)
+			source $(dirname ${BASH_SOURCE[0]})/build-final/build-final.sh
+			;;
+		--all | -a)
+			source $(dirname ${BASH_SOURCE[0]})/build-static/build-static.sh
+			source $(dirname ${BASH_SOURCE[0]})/build-final/build-final.sh
+			;;
+	esac
+	shift
+done
