@@ -1,0 +1,1 @@
+ttfautohint-vf --stem-width-mode nnn -m add-hints/ttfa-control.txt RobotoSlab-VF.ttf RobotoSlab-VF-Hinted.ttf

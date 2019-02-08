@@ -1,0 +1,112 @@
+#——————————————————————————————————————————————————————————————
+# a
+
+a r 28-29 (-20, 0)
+# Tail serif gets too thick in Thin weight
+
+
+#——————————————————————————————————————————————————————————————
+# ae.ss03 (375)
+
+375 l 54-56
+375 n 10
+375 l 11-12
+375 t 11-12, 54-56 y 0.25 @ 46, 51, 52
+# Crossbar gets too thick in Thin weight
+
+
+#——————————————————————————————————————————————————————————————
+# a.ss03 (374)
+
+374 r 29-30 (-20, 0)
+# Tail serif gets too thick in Thin weight
+
+
+#——————————————————————————————————————————————————————————————
+# E
+
+E nodir 7, 8, 17, 18
+E left 15-16 (-260, 80) 
+E right 9-10 (-360, 80)
+E touch 9-10 y -0.125 @ 37
+E touch 15-16 y 0.125 @ 33-35
+E touch 13-14 y 0.125 @ 46, 47
+# Bottom bar or middle bar gets too thin at certain ppems
+
+
+#——————————————————————————————————————————————————————————————
+# F
+
+F touch 9-10 yshift -0.125 @ 46-47
+# Top bar is thinner than center @ 46-47ppem # Regular
+
+
+#——————————————————————————————————————————————————————————————
+# b
+
+b left 3
+b nodir 10
+b left 6-7 (0, 60)
+# Bottom joint was too thick in Thin and extremely thin in Black
+# Top joint was a bit thick in the Thin
+
+
+#——————————————————————————————————————————————————————————————
+# alpha (867)
+
+867 nodir 28
+# Inktrap gets too large in black pt28 @ >=33ppem # Thin
+
+
+#——————————————————————————————————————————————————————————————
+# tildeComb (1088)
+
+1088 nodir 8-10
+# One side is thicker than the other at all ppems # Thin
+
+
+#——————————————————————————————————————————————————————————————
+# circumflex_tilde (1152)
+
+1152 nodir 8-10
+# One side is thicker than the other at all ppem # Thin
+# gets messed up in A (14) @ 27-30ppem
+
+
+#——————————————————————————————————————————————————————————————
+# hbar.sc (446)
+
+446 touch 31-32 yshift -0.8 @ 23
+446 point 31-32 yshift -0.125 @ 24, 26
+446 point 31-32 yshift -0.375 @ 25
+446 touch 9-10 yshift -0.25 @ 27, 28, 36
+446 touch 30-33 yshift 0.625 @ 37
+# bar (pts30-34) collides at <= 25ppem # Regular
+
+
+#——————————————————————————————————————————————————————————————
+# Abrevehook (7) breve_hook (1147)
+
+1147 left 0 (-50, 50)
+# bottom = pt0 # breve touches A @ 22-31ppem # Regular + Thin
+
+#——————————————————————————————————————————————————————————————
+# caronComb (1084) 
+
+1084 touch 0-8 yshift 0.75 @ 20, 23, 25, 27, 29, 31, 33, 36, 38, 40
+# Collide with letters all weights certain ppems
+# used as component in glyphs: 30, 41, 92, 126, 130, 138, 177, 219, 230, 270, 286, 320, 324, 371, 413, 419, 424, 474, 508, 512, 519, 557, 1106
+
+
+#——————————————————————————————————————————————————————————————
+# hungarumlaut (1081)
+
+1081 touch 2, 4, 8, 10 yshift 0.75 @ 17, 19
+# Too short when grid-fitted @ <=19ppem # Regular and up
+
+
+#——————————————————————————————————————————————————————————————
+# breve_grave (1146)
+
+# grave has some distortion in. bolder weights @ 37-31, 24-20, 14-6
+
