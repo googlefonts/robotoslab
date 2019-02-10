@@ -59,16 +59,16 @@ b left 6-7 (0, 60)
 
 
 #——————————————————————————————————————————————————————————————
-# tildeComb (1088)
+# tildeComb (1089)
 
-1088 nodir 8-10
+1089 nodir 8-10
 # One side is thicker than the other at all ppems # Thin
 
 
 #——————————————————————————————————————————————————————————————
-# circumflex_tilde (1152)
+# circumflex_tilde (1153)
 
-1152 nodir 8-10
+1153 nodir 8-10
 # One side is thicker than the other at all ppem # Thin
 # gets messed up in A (14) @ 27-30ppem
 
@@ -85,28 +85,28 @@ b left 6-7 (0, 60)
 
 
 #——————————————————————————————————————————————————————————————
-# Abrevehook (7) breve_hook (1147)
+# Abrevehook (7) breve_hook (1148)
 
-1147 left 0 (-50, 50)
+1148 left 0 (-50, 50)
 # bottom = pt0 # breve touches A @ 22-31ppem # Regular + Thin
 
 #——————————————————————————————————————————————————————————————
-# caronComb (1084) 
+# caronComb (1085) 
 
-1084 touch 0-8 yshift 0.75 @ 20, 23, 25, 27, 29, 31, 33, 36, 38, 40
+1085 touch 0-8 yshift 0.75 @ 20, 23, 25, 27, 29, 31, 33, 36, 38, 40
 # Collide with letters all weights certain ppems
 # used as component in glyphs: 30, 41, 92, 126, 130, 138, 177, 219, 230, 270, 286, 320, 324, 371, 413, 419, 424, 474, 508, 512, 519, 557, 1106
 
 
 #——————————————————————————————————————————————————————————————
-# hungarumlaut (1081)
+# hungarumlaut (1082)
 
-1081 touch 2, 4, 8, 10 yshift 0.75 @ 17, 19
+1082 touch 2, 4, 8, 10 yshift 0.75 @ 17, 19
 # Too short when grid-fitted @ <=19ppem # Regular and up
 
 
 #——————————————————————————————————————————————————————————————
 # breve_grave (1146)
 
-# grave has some distortion in. bolder weights @ 37-31, 24-20, 14-6
+# grave has some distortion in bolder weights @ 37-31, 24-20, 14-6
 
