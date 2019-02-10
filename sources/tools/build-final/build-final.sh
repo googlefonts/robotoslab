@@ -1,6 +1,12 @@
-fontmake -o variable -g RobotoSlab.glyphs
+cp RobotoSlab.glyphs BuildFinal.glyphs
+
+python2 $(dirname ${BASH_SOURCE[0]})/delNonExp.py BuildFinal.glyphs
+
+fontmake -o variable -g BuildFinal.glyphs
 
 rm -rf master_ufo
+rm -rf instance_ufo
+rm -rf BuildFinal.glyphs
 
 cd variable_ttf
 
