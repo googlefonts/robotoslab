@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Obarreddieresis-cy" format="1">
-  <advance width="1372"/>
-  <unicode hex="04EA"/>
-  <outline>
-    <component base="Fita-cy"/>
-    <component base="dieresis" xOffset="288" yOffset="330"/>
-  </outline>
-</glyph>

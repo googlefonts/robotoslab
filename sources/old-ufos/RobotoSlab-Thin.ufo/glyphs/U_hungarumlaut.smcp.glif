@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uhungarumlaut.smcp" format="1">
-  <advance width="1432"/>
-  <outline>
-    <component base="U.smcp"/>
-    <component base="hungarumlaut" xOffset="350" yOffset="27"/>
-  </outline>
-</glyph>

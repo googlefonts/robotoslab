@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Elhook-cy" format="1">
-  <advance width="1507"/>
-  <unicode hex="0512"/>
-  <outline>
-    <component base="El-cy"/>
-    <component base="cyrillichook" xOffset="1085" yOffset="-68"/>
-  </outline>
-</glyph>

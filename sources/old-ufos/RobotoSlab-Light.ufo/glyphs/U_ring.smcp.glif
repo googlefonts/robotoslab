@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uring.smcp" format="1">
-  <advance width="1404"/>
-  <outline>
-    <component base="U.smcp"/>
-    <component base="ring" xOffset="375" yOffset="96"/>
-  </outline>
-</glyph>

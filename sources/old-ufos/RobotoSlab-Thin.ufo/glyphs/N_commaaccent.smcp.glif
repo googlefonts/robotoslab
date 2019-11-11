@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ncommaaccent.smcp" format="1">
-  <advance width="1440"/>
-  <outline>
-    <component base="N.smcp"/>
-    <component base="commaaccent" xOffset="489" yOffset="-266"/>
-  </outline>
-</glyph>

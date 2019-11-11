@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Racute.smcp" format="1">
-  <advance width="1254"/>
-  <outline>
-    <component base="R.smcp"/>
-    <component base="acute" xOffset="341" yOffset="25"/>
-  </outline>
-</glyph>

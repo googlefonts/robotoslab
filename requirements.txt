@@ -1,4 +1,2 @@
-ufo-extractor
-fontmake
-fire
-git+git@github.com:graphicore/extractFea.git#egg=extractfea
+fontmake==2.0.4
+git+https://www.github.com/googlefonts/tools

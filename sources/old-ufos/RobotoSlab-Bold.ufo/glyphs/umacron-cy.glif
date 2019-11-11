@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="umacron-cy" format="1">
-  <advance width="1212"/>
-  <unicode hex="04EF"/>
-  <outline>
-    <component base="y"/>
-    <component base="firsttonechinese" xOffset="66" yOffset="-11"/>
-  </outline>
-</glyph>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Eltail-cy" format="1">
-  <advance width="1503"/>
-  <unicode hex="04C5"/>
-  <outline>
-    <component base="El-cy"/>
-    <component base="comma" xOffset="1237" yOffset="-24"/>
-  </outline>
-</glyph>

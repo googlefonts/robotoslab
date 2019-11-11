@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Dcaron.smcp" format="1">
-  <advance width="1235"/>
-  <outline>
-    <component base="D.smcp"/>
-    <component base="caron" xOffset="153" yOffset="7"/>
-  </outline>
-</glyph>

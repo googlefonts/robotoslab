@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Chekhakassian-cy" format="1">
-  <advance width="1491"/>
-  <unicode hex="04CB"/>
-  <outline>
-    <component base="Che-cy"/>
-    <component base="cyrillictic" xOffset="810"/>
-  </outline>
-</glyph>

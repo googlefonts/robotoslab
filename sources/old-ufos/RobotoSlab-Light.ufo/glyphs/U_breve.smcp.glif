@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ubreve.smcp" format="1">
-  <advance width="1404"/>
-  <outline>
-    <component base="U.smcp"/>
-    <component base="breve" xOffset="268" yOffset="57"/>
-  </outline>
-</glyph>

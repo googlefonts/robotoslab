@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="germandbls.smcp" format="1">
-  <advance width="2198"/>
-  <outline>
-    <component base="S.smcp"/>
-    <component base="S.smcp" xOffset="1099"/>
-  </outline>
-</glyph>
