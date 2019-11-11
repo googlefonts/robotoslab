@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Cacute.smcp" format="1">
-  <advance width="1130"/>
-  <outline>
-    <component base="C.smcp"/>
-    <component base="acute" xOffset="402" yOffset="28"/>
-  </outline>
-</glyph>

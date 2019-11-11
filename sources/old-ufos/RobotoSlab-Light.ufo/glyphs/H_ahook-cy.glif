@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Hahook-cy" format="1">
-  <advance width="1397"/>
-  <unicode hex="04FC"/>
-  <outline>
-    <component base="X"/>
-    <component base="cyrillichook" xOffset="1002" yOffset="-68"/>
-  </outline>
-</glyph>

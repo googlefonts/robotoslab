@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Zacute.smcp" format="1">
-  <advance width="1127"/>
-  <outline>
-    <component base="Z.smcp"/>
-    <component base="acute" xOffset="303" yOffset="26"/>
-  </outline>
-</glyph>

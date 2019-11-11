@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Zdotaccent.smcp" format="1">
-  <advance width="1089"/>
-  <outline>
-    <component base="Z.smcp"/>
-    <component base="dotaccent" xOffset="243" yOffset="25"/>
-  </outline>
-</glyph>

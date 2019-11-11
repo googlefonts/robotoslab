@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ocircumflex.smcp" format="1">
-  <advance width="1227"/>
-  <outline>
-    <component base="O.smcp"/>
-    <component base="circumflex" xOffset="197" yOffset="11"/>
-  </outline>
-</glyph>

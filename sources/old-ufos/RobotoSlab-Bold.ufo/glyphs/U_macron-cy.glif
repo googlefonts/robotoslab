@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Umacron-cy" format="1">
-  <advance width="1407"/>
-  <unicode hex="04EE"/>
-  <outline>
-    <component base="U-cy"/>
-    <component base="firsttonechinese" xOffset="212" yOffset="325"/>
-  </outline>
-</glyph>

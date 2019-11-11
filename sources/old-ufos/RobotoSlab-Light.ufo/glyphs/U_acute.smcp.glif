@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Uacute.smcp" format="1">
-  <advance width="1404"/>
-  <outline>
-    <component base="U.smcp"/>
-    <component base="acute" xOffset="488" yOffset="18"/>
-  </outline>
-</glyph>

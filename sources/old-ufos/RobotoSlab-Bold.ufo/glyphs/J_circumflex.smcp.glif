@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Jcircumflex.smcp" format="1">
-  <advance width="1118"/>
-  <outline>
-    <component base="J.smcp"/>
-    <component base="circumflex" xOffset="322" yOffset="6"/>
-  </outline>
-</glyph>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ugrave.smcp" format="1">
-  <advance width="1404"/>
-  <outline>
-    <component base="U.smcp"/>
-    <component base="grave" xOffset="306" yOffset="35"/>
-  </outline>
-</glyph>

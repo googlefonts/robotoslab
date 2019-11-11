@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Tcommaaccent.smcp" format="1">
-  <advance width="1175"/>
-  <outline>
-    <component base="T.smcp"/>
-    <component base="commaaccent" xOffset="327" yOffset="-345"/>
-  </outline>
-</glyph>
