@@ -19,45 +19,18 @@ This project is a fork from the old Google font repository.
 * Port original binaries to UFO sources with cubic outlines
 * use fontmake to build.
 
-# Todo:
-
-* Improve README.md
-* Get Metadata up to data, add appropriate email address
-* Run fonts through Fontbakery and ship fonts.
-
 # Building
 
 First you should setup a python virtual environment:
 
-```sh
-# the name "venv" is used in "scripts/bin/build/sh"
-$ virtualenv venv
+```
+# Create a python virtualenv
+$ python3 -m venv venv
 # activate the virtual environment
 $ . ./venv/bin/activate
 # install the dependencies
 $ pip install -r reguirements.txt
-```
-
-With that in place and with the virtual envronment activated, build the fonts like so:
-
-## Masters
-
-```sh
-$ ./scripts/bin/build.sh
-```
-
-Alternatively, invoke fontmake directly:
-
-```sh
-$ cd fonts
-$ fontmake -m ../sources/RobotoSlab.designspace
-```
-
-## Instances
-
-In the designspace document, also some instances are described, this can create font-instances by interploation. However, the masters are not fully compatible and thus the instances are not complete/broken.
-
-```sh
-$ cd fonts
-$ fontmake -m ../sources/RobotoSlab.designpace -i
+# build fonts
+$ cd sources
+$ sh build.sh
 ```
