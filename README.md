@@ -29,7 +29,7 @@ $ python3 -m venv venv
 # activate the virtual environment
 $ . ./venv/bin/activate
 # install the dependencies
-$ pip install -r reguirements.txt
+$ pip install -r requirements.txt
 # build fonts
 $ cd sources
 $ sh build.sh
