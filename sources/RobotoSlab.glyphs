@@ -1,5 +1,5 @@
 {
-.appVersion = "1271";
+.appVersion = "1349";
 classes = (
 {
 automatic = 1;
@@ -137882,6 +137882,15 @@ name = Thin;
 weightClass = Thin;
 },
 {
+interpolationWeight = 90;
+instanceInterpolations = {
+"0331963E-C1C8-4E93-A463-84B984C1D75E" = 0.74825;
+"B06AEEA2-953E-4FA5-BFB1-0445B6E4B274" = 0.25175;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
 interpolationWeight = 120;
 instanceInterpolations = {
 "0331963E-C1C8-4E93-A463-84B984C1D75E" = 0.53846;
@@ -137907,6 +137916,15 @@ name = Medium;
 weightClass = Medium;
 },
 {
+interpolationWeight = 272;
+instanceInterpolations = {
+"55372407-EEEC-4390-8B77-FB5958F23D2B" = 0.48701;
+"B06AEEA2-953E-4FA5-BFB1-0445B6E4B274" = 0.51299;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
 interpolationWeight = 292;
 instanceInterpolations = {
 "55372407-EEEC-4390-8B77-FB5958F23D2B" = 0.61688;
@@ -137915,6 +137933,15 @@ instanceInterpolations = {
 isBold = 1;
 name = Bold;
 weightClass = Bold;
+},
+{
+interpolationWeight = 320;
+instanceInterpolations = {
+"55372407-EEEC-4390-8B77-FB5958F23D2B" = 0.7987;
+"B06AEEA2-953E-4FA5-BFB1-0445B6E4B274" = 0.2013;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
 },
 {
 interpolationWeight = 351;
@@ -143000,5 +143027,5 @@ type = glyphList;
 UFOFormat = 2;
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }
