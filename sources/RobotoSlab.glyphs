@@ -1,5 +1,5 @@
 {
-.appVersion = "3219";
+.appVersion = "3221";
 .formatVersion = 3;
 axes = (
 {
@@ -53,6 +53,22 @@ value = 1;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+100 = 54;
+200 = 90;
+300 = 120;
+400 = 197;
+500 = 252;
+600 = 272;
+700 = 292;
+800 = 320;
+900 = 351;
+};
+};
 }
 );
 date = "2018-08-01 19:41:13 +0000";
