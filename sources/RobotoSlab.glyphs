@@ -78137,7 +78137,7 @@ width = 1684;
 {
 glyphname = "en-cy";
 kernLeft = eta;
-lastChange = "2018-07-30 13:29:25 +0000";
+lastChange = "2023-10-12 08:50:30 +0000";
 layers = (
 {
 anchors = (
@@ -95910,7 +95910,7 @@ unicode = 8013;
 {
 glyphname = alpha;
 kernLeft = alpha;
-lastChange = "2023-10-11 13:59:01 +0000";
+lastChange = "2023-10-12 08:51:10 +0000";
 layers = (
 {
 anchors = (
@@ -97709,9 +97709,9 @@ width = 954;
 {
 color = 0;
 glyphname = eta;
-kernLeft = eta;
-kernRight = eta;
-lastChange = "2023-10-12 08:36:04 +0000";
+kernLeft = eta_1;
+kernRight = eta_1;
+lastChange = "2023-10-12 08:52:41 +0000";
 layers = (
 {
 anchors = (
@@ -99824,7 +99824,7 @@ width = 1237;
 },
 {
 glyphname = tau;
-lastChange = "2023-10-11 13:41:42 +0000";
+lastChange = "2023-10-12 08:52:56 +0000";
 layers = (
 {
 layerId = "0331963E-C1C8-4E93-A463-84B984C1D75E";
@@ -139369,7 +139369,7 @@ uni047F = -13;
 "de-cy" = -18;
 "kabashkir-cy" = -20;
 "komitje-cy" = -20;
-tau = -22;
+tau = -82;
 "te-cy" = -80;
 };
 "@MMK_L_c" = {
@@ -139398,6 +139398,7 @@ v = -20;
 "@MMK_R_alpha" = -38;
 "@MMK_R_comma" = -107;
 "@MMK_R_el-cy" = -41;
+"@MMK_R_eta_1" = 100;
 "@MMK_R_minute" = 15;
 "@MMK_R_o" = -15;
 b = 10;
@@ -139411,7 +139412,7 @@ tau = 12;
 uni047B = -15;
 };
 "@MMK_L_ge-cy" = {
-"@MMK_R_alpha" = -20;
+"@MMK_R_alpha" = -140;
 "@MMK_R_el-cy" = -40;
 "@MMK_R_o" = -40;
 "de-cy" = -55;
@@ -139882,6 +139883,7 @@ z.sc = 13;
 tau = {
 "@MMK_R_H.smcp" = -65;
 "@MMK_R_alpha" = -24;
+"@MMK_R_eta_1" = 20;
 "@MMK_R_gamma" = 11;
 "@MMK_R_minute" = 12;
 "@MMK_R_o" = -22;
@@ -140587,7 +140589,7 @@ uni047F = -13;
 "de-cy" = -18;
 "kabashkir-cy" = -20;
 "komitje-cy" = -20;
-tau = -22;
+tau = -82;
 "te-cy" = -80;
 };
 "@MMK_L_c" = {
@@ -140629,7 +140631,7 @@ w = -105;
 "@MMK_R_alpha" = -48;
 "@MMK_R_comma" = -107;
 "@MMK_R_el-cy" = -41;
-"@MMK_R_eta" = 50;
+"@MMK_R_eta_1" = 80;
 "@MMK_R_h" = -20;
 "@MMK_R_minute" = 15;
 "@MMK_R_o" = -25;
@@ -140644,7 +140646,7 @@ tau = 12;
 uni047B = -15;
 };
 "@MMK_L_ge-cy" = {
-"@MMK_R_alpha" = -20;
+"@MMK_R_alpha" = -160;
 "@MMK_R_el-cy" = -40;
 "@MMK_R_o" = -40;
 "de-cy" = -55;
@@ -141979,7 +141981,7 @@ w = -65;
 "de-cy" = -18;
 "kabashkir-cy" = -20;
 "komitje-cy" = -20;
-tau = -22;
+tau = -62;
 "te-cy" = -18;
 };
 "@MMK_L_c" = {
@@ -142021,7 +142023,7 @@ w = -57;
 "@MMK_R_alpha" = -13;
 "@MMK_R_comma" = -204;
 "@MMK_R_el-cy" = -41;
-"@MMK_R_eta" = 90;
+"@MMK_R_eta_1" = 50;
 "@MMK_R_h" = 12;
 "@MMK_R_minute" = -1;
 "@MMK_R_o" = -17;
